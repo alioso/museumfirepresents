@@ -1,0 +1,316 @@
+/* General
+----------------------------------------------------------------------------- */
+
+.wrap h2.nav-tab-wrapper {
+	margin-bottom: 10px;
+}
+
+
+/* Screen
+----------------------------------------------------------------------------- */
+
+.audiotheme-agent-screen {
+	padding-right: 300px;
+}
+
+.audiotheme-agent-screen:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.audiotheme-agent-screen > * {
+	box-sizing: border-box;
+}
+
+.audiotheme-agent-screen-primary {
+	float: left;
+	width: 100%;
+}
+
+.audiotheme-agent-screen-secondary {
+	float: right;
+	margin-right: -300px;
+	width: 280px;
+}
+
+@media (max-width: 782px) {
+	.audiotheme-agent-screen {
+		padding: 0;
+	}
+
+	.audiotheme-agent-screen-primary,
+	.audiotheme-agent-screen-secondary {
+		float: none;
+		margin-right: 0;
+		width: auto;
+	}
+}
+
+
+/* Panel
+----------------------------------------------------------------------------- */
+
+.audiotheme-agent-panel {
+	background: #fff;
+	border: 1px solid #dedede;
+	margin-bottom: 20px;
+}
+
+.audiotheme-agent-panel-body {
+	padding: 14px;
+}
+
+.audiotheme-agent-panel-body .form-table td {
+	padding-top: 0;
+	padding-bottom: 15px;
+}
+
+.audiotheme-agent-panel-body .form-table th {
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+
+.audiotheme-agent-panel-body .form-table tr:last-child td,
+.audiotheme-agent-panel-body .form-table tr:last-child th {
+	padding-bottom: 0;
+}
+
+.audiotheme-agent-panel-body > :first-child {
+	margin-top: 0;
+}
+
+.audiotheme-agent-panel-body > :last-child {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.audiotheme-agent-panel-header {
+	border-bottom: 1px solid #dedede;
+	padding: 14px;
+}
+
+.audiotheme-agent-panel-header:before,
+.audiotheme-agent-panel-header:after {
+	content: " ";
+	display: table;
+}
+
+.audiotheme-agent-panel-header:after {
+	clear: both;
+}
+
+.audiotheme-agent-panel-title {
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+
+
+/* Tables
+----------------------------------------------------------------------------- */
+
+.audiotheme-agent-table tbody td.column-action {
+	text-align: right;
+}
+
+.audiotheme-agent-table tbody td.column-action .spinner {
+	float: none;
+	margin-top: 0;
+}
+
+
+/* Products Table
+----------------------------------------------------------------------------- */
+
+.audiotheme-agent-packages caption {
+	color: #23282d;
+	font-size: 1.3em;
+	font-weight: 600;
+	margin: 1em 0;
+	text-align: left;
+}
+
+.audiotheme-agent-packages thead th {
+	border-bottom-width: 0;
+}
+
+.audiotheme-agent-packages td,
+.audiotheme-agent-packages th {
+	box-shadow: inset 0 -1px 0 rgba( 0, 0, 0, 0.1 );
+	vertical-align: middle;
+}
+
+.audiotheme-agent-packages tbody tr > td:first-child {
+	border-left: 4px solid #fff;
+}
+
+.audiotheme-agent-packages tbody tr.is-active td,
+.audiotheme-agent-packages tbody tr.is-active th {
+	background-color: #f7fcfe;
+}
+
+.audiotheme-agent-packages tbody tr.is-active > th:first-child {
+	border-left: 4px solid #00a0d2;
+}
+
+.audiotheme-agent-packages tbody tr.has-update td,
+.audiotheme-agent-packages tbody tr.has-update th {
+	background-color: #fff8e5;
+}
+
+.audiotheme-agent-packages tbody tr.has-update > th:first-child {
+	border-left: 4px solid #ffb900;
+}
+
+@media only screen and (max-width: 782px) {
+	.audiotheme-agent-packages .column-current-version {
+		display: none;
+	}
+}
+
+
+/* Subscriptions Table
+----------------------------------------------------------------------------- */
+
+.audiotheme-agent-subscriptions td,
+.audiotheme-agent-subscriptions th {
+	vertical-align: middle;
+}
+
+.audiotheme-agent-subscriptions tbody:empty + tfoot td {
+	border-top-width: 0;
+}
+
+.audiotheme-agent-subscriptions tfoot td {
+	background-color: #f9f9f9;
+}
+
+.audiotheme-agent-subscriptions tfoot td input {
+	margin-left: 0;
+	max-width: 25em;
+	padding: 3px 5px;
+	vertical-align: top;
+	width: 100%;
+}
+
+.audiotheme-agent-subscriptions tfoot td > :last-child {
+	margin-bottom: 2px;
+}
+
+.audiotheme-agent-subscriptions .column-action {
+	width: 15%;
+}
+
+.audiotheme-agent-subscription-token-group .spinner {
+	float: none;
+	margin-top: 0;
+}
+
+.audiotheme-agent-subscription-token-group-feedback {
+	color: #dc3232;
+	display: block;
+	font-style: italic;
+	margin-top: 5px;
+}
+
+
+/* Help Tab
+----------------------------------------------------------------------------- */
+
+.audiotheme-agent-help-table {
+	margin: 1em 0;
+}
+
+.audiotheme-agent-help-table th {
+	padding-right: 20px;
+	text-align: left;
+}
+
+
+/* Dropdown Group
+----------------------------------------------------------------------------- */
+
+.audiotheme-agent-dropdown-group {
+	display: inline-flex;
+	position: relative;
+}
+
+.audiotheme-agent-dropdown-group > .button {
+	position: relative;
+	z-index: 2;
+}
+
+.audiotheme-agent-dropdown-group > .button:first-child {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	border-right-width: 0;
+}
+
+.audiotheme-agent-dropdown-group > .audiotheme-agent-dropdown-toggle {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	padding-left: 0;
+	padding-right: 0;
+	position: relative;
+}
+
+.audiotheme-agent-dropdown-group > .audiotheme-agent-dropdown-toggle i {
+	margin: 3px 0 3px 0;
+	padding: 0 5px;
+}
+
+.audiotheme-agent-dropdown-group-items {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	-webkit-box-shadow: 1px 0 4px rgba( 0, 0, 0, 0.15 );
+	box-shadow: 1px 0 4px rgba( 0, 0, 0, 0.15 );
+	display: none;
+	list-style: none;
+	margin: 0;
+	max-width: 100%;
+	min-width: 180px;
+	padding: 5px 0;
+	position: absolute;
+	top: 100%;
+	right: 0;
+	left: auto;
+	z-index: 1;
+}
+
+.audiotheme-agent-dropdown-group-items li {
+	display: block;
+	line-height: 2;
+	margin: 0;
+	padding: 5px 15px;
+	text-align: left;
+}
+
+.audiotheme-agent-dropdown-group-items li a {
+	display: block;
+	margin: -5px -15px;
+	padding: 5px 15px;
+	text-decoration: none;
+}
+
+.audiotheme-agent-dropdown-group-items li a:hover {
+	background-color: #f8f8f8;
+}
+
+.audiotheme-agent-dropdown-group-items ul {
+	margin: 0;
+}
+
+.audiotheme-agent-dropdown-group.is-open {
+	z-index: 10;
+}
+
+.audiotheme-agent-dropdown-group.is-open > .button {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	border-bottom-width: 0;
+}
+
+.audiotheme-agent-dropdown-group.is-open .audiotheme-agent-dropdown-group-items {
+	display: block;
+}

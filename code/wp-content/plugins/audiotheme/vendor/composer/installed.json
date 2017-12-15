@@ -1,0 +1,217 @@
+[
+    {
+        "name": "composer/installers",
+        "version": "v1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/composer/installers.git",
+            "reference": "a3595c5272a6f247228abb20076ed27321e4aae9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/composer/installers/zipball/a3595c5272a6f247228abb20076ed27321e4aae9",
+            "reference": "a3595c5272a6f247228abb20076ed27321e4aae9",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.0"
+        },
+        "replace": {
+            "roundcube/plugin-installer": "*",
+            "shama/baton": "*"
+        },
+        "require-dev": {
+            "composer/composer": "1.0.*@dev",
+            "phpunit/phpunit": "4.1.*"
+        },
+        "time": "2016-07-05T06:18:20+00:00",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "Composer\\Installers\\Plugin",
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Composer\\Installers\\": "src/Composer/Installers"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kyle Robinson Young",
+                "email": "kyle@dontkry.com",
+                "homepage": "https://github.com/shama"
+            }
+        ],
+        "description": "A multi-framework Composer library installer",
+        "homepage": "https://composer.github.io/installers/",
+        "keywords": [
+            "Craft",
+            "Dolibarr",
+            "Hurad",
+            "ImageCMS",
+            "MODX Evo",
+            "Mautic",
+            "OXID",
+            "RadPHP",
+            "SMF",
+            "Thelia",
+            "WolfCMS",
+            "agl",
+            "aimeos",
+            "annotatecms",
+            "bitrix",
+            "cakephp",
+            "chef",
+            "codeigniter",
+            "concrete5",
+            "croogo",
+            "dokuwiki",
+            "drupal",
+            "elgg",
+            "expressionengine",
+            "fuelphp",
+            "grav",
+            "installer",
+            "joomla",
+            "kohana",
+            "laravel",
+            "lithium",
+            "magento",
+            "mako",
+            "mediawiki",
+            "modulework",
+            "moodle",
+            "phpbb",
+            "piwik",
+            "ppi",
+            "puppet",
+            "roundcube",
+            "shopware",
+            "silverstripe",
+            "symfony",
+            "typo3",
+            "wordpress",
+            "zend",
+            "zikula"
+        ]
+    },
+    {
+        "name": "xrstf/composer-php52",
+        "version": "v1.0.20",
+        "version_normalized": "1.0.20.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/composer-php52/composer-php52.git",
+            "reference": "bd41459d5e27df8d33057842b32377c39e97a5a8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/composer-php52/composer-php52/zipball/bd41459d5e27df8d33057842b32377c39e97a5a8",
+            "reference": "bd41459d5e27df8d33057842b32377c39e97a5a8",
+            "shasum": ""
+        },
+        "time": "2016-04-16T21:52:24+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-default": "1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "xrstf\\Composer52": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ]
+    },
+    {
+        "name": "leafo/lessphp",
+        "version": "v0.4.0",
+        "version_normalized": "0.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/leafo/lessphp.git",
+            "reference": "51f3f06f0fe78a722dabfd14578444bdd078d9de"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/leafo/lessphp/zipball/51f3f06f0fe78a722dabfd14578444bdd078d9de",
+            "reference": "51f3f06f0fe78a722dabfd14578444bdd078d9de",
+            "shasum": ""
+        },
+        "time": "2013-08-09T17:09:19+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.3-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "lessc.inc.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT",
+            "GPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Leaf Corcoran",
+                "email": "leafot@gmail.com",
+                "homepage": "http://leafo.net"
+            }
+        ],
+        "description": "lessphp is a compiler for LESS written in PHP.",
+        "homepage": "http://leafo.net/lessphp/"
+    },
+    {
+        "name": "icit/wp-less",
+        "version": "0.3",
+        "version_normalized": "0.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sanchothefat/wp-less.git",
+            "reference": "0e0249108b3f29f3c4a1830d8ba2216f9272b7df"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sanchothefat/wp-less/zipball/0e0249108b3f29f3c4a1830d8ba2216f9272b7df",
+            "reference": "0e0249108b3f29f3c4a1830d8ba2216f9272b7df",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "~1.0",
+            "leafo/lessphp": "0.4.0",
+            "php": ">5.2.4"
+        },
+        "time": "2013-10-01T13:31:30+00:00",
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Interconnect/IT",
+                "homepage": "http://interconnectit.com/"
+            }
+        ],
+        "description": "Provides a LESS compiler compatible with wp_enqueue_style() for rapid CSS development in themes and plugins."
+    }
+]

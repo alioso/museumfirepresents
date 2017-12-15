@@ -1,0 +1,101 @@
+build_hook_file.path: /var/www/museumfirepresents/code/sites/default/fetcher.make.php
+client.authentication_class: \FetcherServices\Authentication\OpenSshKeys
+code_fetcher.class: Fetcher\CodeFetcher\Download
+code_fetcher.config: {  }
+code_fetcher.vcs_mapping:
+  git: Fetcher\CodeFetcher\VCS\Git
+configuration.ephemeral:
+  - initialized
+  - simulate
+  - verbose
+  - environment.remote
+  - data.admin.user.password
+  - database.newly_created
+configurators:
+  - \Fetcher\Configurator\Drush
+  - \Fetcher\Configurator\DrupalVersion
+'database class': \Fetcher\DB\Mysql
+database.admin.port: null
+database.admin.user.name: null
+database.admin.user.password: null
+database.database: museumfirepresents
+database.driver: mysql
+database.hostname: localhost
+database.port: ''
+database.prefix: ''
+database.user.hostname: localhost
+database.user.name: museumfirepresents
+database.user.password: lBIyLEXSsToribpvAJ2j
+database_synchronizer.class: Fetcher\DBSynchronizer\DrushSqlSync
+drush_alias.path: /home/vagrant/.drush/museumfirepresents.aliases.drushrc.php
+environment.local: local
+environments: {  }
+fetcher_client.class: \Fetcher\Utility\HTTPClient
+'file synchronizer class': Fetcher\FileSynchronizer\RsyncFileSync
+hostname: museumfirepresents.local
+info_fetcher.class: FetcherServices\InfoFetcher\FetcherServices
+info_fetcher.config:
+  host: 'https://extranet.zivtech.com'
+'log function': drush_log
+mysql.binary: mysql
+name: museumfirepresents
+name.global: museumfirepresents
+profile: standard
+profile.package: drupal-7
+rsync-binary: rsync
+'server class': \Fetcher\Server\Apache2
+server.disable_site_command: 'sudo a2dissite museumfirepresents.conf'
+server.enable_site_command: 'sudo a2ensite museumfirepresents.conf'
+server.fpm_url: '127.0.0.1:9001'
+server.host_conf_path: /etc/apache2/sites-available/museumfirepresents.conf
+server.port: 80
+server.restart_command: 'sudo service apache2 reload'
+server.sapi: fpm
+server.user: www-data
+server.vhost_available_folder: /etc/apache2/sites-available
+server.vhost_enabled_folder: /etc/apache2/sites-enabled
+server.webroot: /var/www
+settings_php.ini_set:
+  arg_separator.output: '&amp;'
+  magic_quotes_runtime: 0
+  magic_quotes_sybase: 0
+  session.cache_expire: 200000
+  session.cache_limiter: none
+  session.cookie_lifetime: 0
+  session.gc_maxlifetime: 200000
+  session.save_handler: user
+  session.use_cookies: 1
+  session.use_only_cookies: 1
+  session.use_trans_sid: 0
+  url_rewriter.tags: ''
+settings_php.requires: {  }
+settings_php.snippets:
+  - '$protocol = (isset($_SERVER[''HTTPS'']) && $_SERVER[''HTTPS''] === ''on'') ? ''https://'' : ''http://'';'
+  - '$base_url = $protocol . ''museumfirepresents.local'';'
+settings_php.variables:
+  conf:
+    fetcher_environment: local
+  databases:
+    default:
+      default:
+        database: museumfirepresents
+        username: museumfirepresents
+        password: lBIyLEXSsToribpvAJ2j
+        host: localhost
+        port: ''
+        driver: mysql
+        prefix: ''
+site: default
+site.code_directory: /var/www/museumfirepresents/code
+site.directory: /var/www/museumfirepresents/code/sites/default
+'site.info path': /var/www/museumfirepresents/site_info.yaml
+site.webroot: /var/www/museumfirepresents/webroot
+site.working_directory: /var/www/museumfirepresents
+symlinks:
+  /var/www/museumfirepresents/public_files: /var/www/museumfirepresents/code/sites/default/files
+  /var/www/museumfirepresents/code: /var/www/museumfirepresents/webroot
+'system class': \Fetcher\System\Posix
+'system hostname': local
+task_loader.class: \Fetcher\Task\TaskLoader
+version: '7'
+webroot_subdirectory: docroot

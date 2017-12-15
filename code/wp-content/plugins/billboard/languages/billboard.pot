@@ -1,0 +1,302 @@
+# Copyright (C) 2016 AudioTheme
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Billboard 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/billboard\n"
+"POT-Creation-Date: 2016-11-16 17:30:39+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: billboard.php:103 classes/Provider/Customize.php:98
+msgid "Title"
+msgstr ""
+
+#: billboard.php:111
+msgid "Headings"
+msgstr ""
+
+#: billboard.php:119 classes/Provider/Customize.php:151
+#: classes/Provider/Customize.php:190
+msgid "Content"
+msgstr ""
+
+#: billboard.php:127
+msgid "Player"
+msgstr ""
+
+#: classes/Customize/Control/Editor.php:69
+msgid "Toggle Editor"
+msgstr ""
+
+#: classes/Customize/Section/Fonts.php:42
+msgid "Press return or enter to open"
+msgstr ""
+
+#: classes/Customize/Section/Fonts.php:48
+msgid "Back"
+msgstr ""
+
+#: classes/Customize/Section/Fonts.php:57
+msgid "Help"
+msgstr ""
+
+#: classes/Customize/Section/Fonts.php:60
+msgid "Font Options"
+msgstr ""
+
+#: classes/Customize/Section/Fonts.php:64
+msgid ""
+"Easily customize your fonts. Try to re-use fonts where possible to keep "
+"your website snappy."
+msgstr ""
+
+#: classes/Customize/Section/Fonts.php:68
+msgid "Typekit Integration"
+msgstr ""
+
+#: classes/Customize/Section/Fonts.php:73
+msgid ""
+"Enter a Kit ID to make custom fonts from Typekit available in each "
+"dropdown. %s"
+msgstr ""
+
+#: classes/Customize/Section/Fonts.php:74
+msgid "Learn more."
+msgstr ""
+
+#: classes/Plugin.php:248
+msgid "Manage"
+msgstr ""
+
+#: classes/Provider/Customize.php:61
+msgid "Identity"
+msgstr ""
+
+#: classes/Provider/Customize.php:74
+msgid "Logo"
+msgstr ""
+
+#: classes/Provider/Customize.php:80 classes/Provider/Customize.php:85
+msgid "Select logo"
+msgstr ""
+
+#: classes/Provider/Customize.php:81
+msgid "Change logo"
+msgstr ""
+
+#: classes/Provider/Customize.php:82
+msgid "Remove"
+msgstr ""
+
+#: classes/Provider/Customize.php:83
+msgid "Default"
+msgstr ""
+
+#: classes/Provider/Customize.php:84
+msgid "No logo selected"
+msgstr ""
+
+#: classes/Provider/Customize.php:86
+msgid "Choose logo"
+msgstr ""
+
+#: classes/Provider/Customize.php:111
+msgid "Tagline"
+msgstr ""
+
+#: classes/Provider/Customize.php:124
+msgid "Display the title and tagline"
+msgstr ""
+
+#: classes/Provider/Customize.php:163
+msgid "Layout"
+msgstr ""
+
+#: classes/Provider/Customize.php:170
+msgid "Signature"
+msgstr ""
+
+#: classes/Provider/Customize.php:171
+msgid "Focus"
+msgstr ""
+
+#: classes/Provider/Customize.php:172
+msgid "Left Top"
+msgstr ""
+
+#: classes/Provider/Customize.php:173
+msgid "Left Middle"
+msgstr ""
+
+#: classes/Provider/Customize.php:174
+msgid "Left Bottom"
+msgstr ""
+
+#: classes/Provider/Customize.php:175
+msgid "Right Middle"
+msgstr ""
+
+#: classes/Provider/Customize.php:176
+msgid "Right Bottom"
+msgstr ""
+
+#: classes/Provider/Customize.php:210
+msgid "Social Links Menu"
+msgstr ""
+
+#: classes/Provider/Customize.php:228
+msgid "Design"
+msgstr ""
+
+#: classes/Provider/Customize.php:242
+msgid "Logo Width"
+msgstr ""
+
+#: classes/Provider/Customize.php:265
+msgid "Background Color"
+msgstr ""
+
+#: classes/Provider/Customize.php:278
+msgid "Background Image"
+msgstr ""
+
+#: classes/Provider/Customize.php:292
+msgid "Background Overlay Opacity"
+msgstr ""
+
+#: classes/Provider/Customize.php:293
+msgid "Applies background color over the image."
+msgstr ""
+
+#: classes/Provider/Customize.php:312
+msgid "Background Video"
+msgstr ""
+
+#: classes/Provider/Customize.php:317 classes/Provider/Customize.php:320
+msgid "Select Video"
+msgstr ""
+
+#: classes/Provider/Customize.php:318
+msgid "Change Video"
+msgstr ""
+
+#: classes/Provider/Customize.php:319
+msgid "No video selected"
+msgstr ""
+
+#: classes/Provider/Customize.php:321
+msgid "Choose Video"
+msgstr ""
+
+#: classes/Provider/Customize.php:347
+msgid "Settings"
+msgstr ""
+
+#: classes/Provider/Customize.php:359
+msgid "Who should see the billboard?"
+msgstr ""
+
+#: classes/Provider/Customize.php:364
+msgid "No one"
+msgstr ""
+
+#: classes/Provider/Customize.php:365
+msgid "Visitors only"
+msgstr ""
+
+#: classes/Provider/Customize.php:366
+msgid "Everyone"
+msgstr ""
+
+#: classes/Provider/Customize.php:377
+msgid "Enable maintenance mode"
+msgstr ""
+
+#: classes/Provider/Customize.php:378
+msgid ""
+"Sends a 503 HTTP header to prevent search engines from indexing temporary "
+"content during brief maintenance periods."
+msgstr ""
+
+#: classes/Provider/Customize.php:391
+msgid "Limit feed access to logged-in users"
+msgstr ""
+
+#: classes/Provider/Customize.php:404
+msgid "IP Addresses"
+msgstr ""
+
+#: classes/Provider/Customize.php:405
+msgid ""
+"Enter IP addresses that should skip the coming soon or maintenance page "
+"(one per line)."
+msgstr ""
+
+#: classes/Provider/Customize.php:657
+msgid ""
+"This video file is too large to use as a background video. Try a shorter "
+"video or optimize the compression settings and re-upload a file that is "
+"less than 8MB."
+msgstr ""
+
+#: classes/Provider/Customize.php:666
+#. translators: 1: .mp4
+msgid ""
+"Only %1$s files may be used for background videos. Please convert your "
+"video file and try again."
+msgstr ""
+
+#: classes/Provider/Fonts.php:315
+msgid "Fonts"
+msgstr ""
+
+#: classes/Provider/Fonts.php:392
+msgid "Reset"
+msgstr ""
+
+#: classes/Provider/Fonts.php:393
+msgid "Default Font"
+msgstr ""
+
+#: classes/Provider/Player.php:110
+msgid "<a href=\"%s\">Create a playlist</a> for this player."
+msgstr ""
+
+#: classes/Provider/Player.php:129
+msgid "Playlist"
+msgstr ""
+
+#: themes/billboard/index.php:50
+msgid "Social Media Links"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"From idea to website, Billboard is a micro-landing page designed to be the "
+"quickest way to introduce your concept to the world."
+msgstr ""
+
+#: classes/Provider/Fonts.php:608
+#. translators: To add a character subset specific to your language, translate
+#. this to 'latin-ext', 'cyrillic', 'greek', or 'vietnamese'. Do not translate
+#. into your own language.
+msgctxt "Add new subset (latin-ext)"
+msgid "no-subset"
+msgstr ""

@@ -1,0 +1,117 @@
+/* Section
+------------------------------------------------------------------------------*/
+
+.cuepro-insights-section {
+	margin-bottom: 30px;
+}
+
+.cuepro-insights-section-title {
+	margin-top: 0;
+}
+
+
+/* Metrics
+------------------------------------------------------------------------------*/
+
+.cuepro-metrics {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 2%;
+	margin-top: 16px;
+}
+
+.cuepro-metric {
+	background: rgb(32, 128, 214);
+	color: #fff;
+	flex: 0 0 32.5%;
+	margin: 0;
+	position: relative;
+	text-align: center;
+}
+
+.cuepro-metric-label {
+	margin: 10px 10px 0 10px;
+	text-transform: uppercase;
+}
+
+.cuepro-metric-value {
+	font-weight: bold;
+	font-size: 32px;
+	margin: 0 0 10px 0;
+	line-height: 1.5;
+	text-align: center;
+}
+
+@media only screen and (min-width: 480px) {
+	.cuepro-metric-label {
+		margin: 0;
+		position: absolute;
+		top: 8px;
+		left: 10px;
+	}
+
+	.cuepro-metric-value {
+		font-size: 64px;
+		line-height: 3.5;
+		margin: 0;
+	}
+}
+
+
+/* Table
+------------------------------------------------------------------------------*/
+
+.cuepro-table thead th {
+	font-weight: 500;
+}
+
+.cuepro-table thead .cuepro-numeric-column,
+.cuepro-table tbody .cuepro-numeric-column {
+	text-align: center;
+}
+
+
+/* Miscellaneous
+------------------------------------------------------------------------------*/
+
+.cuepro-chart {
+	background: #fff;
+	padding: 10px;
+}
+
+.cuepro-complete {
+	fill: rgb(32, 128, 214);
+}
+
+.cuepro-partial {
+	fill: rgba(22, 126, 217, 0.2);
+}
+
+.cuepro-skipped {
+	fill: rgb(253, 180, 45);
+}
+
+.widefat td.cuepro-new {
+	color: rgba(0, 160, 233, 1.0);
+	text-transform: uppercase;
+}
+
+.widefat td.cuepro-rising {
+	color: rgba(76, 175, 80, 1.0);
+}
+
+.widefat td.cuepro-rising i:before {
+	display: inline-block;
+	content: "\f142";
+	font-style: normal;
+}
+
+.widefat td.cuepro-falling {
+	color: rgba(244, 67, 54, 1.0);
+}
+
+.widefat td.cuepro-falling i:before {
+	display: inline-block;
+	content: "\f140";
+	font-style: normal;
+}

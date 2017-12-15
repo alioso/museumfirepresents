@@ -1,0 +1,209 @@
+.cue-button,
+.cue-playlist a.cue-button {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 3px;
+	color: rgba(0, 0, 0, 0.70);
+	display: inline-block;
+	font-size: 12px;
+	font-weight: normal;
+	height: 28px;
+	line-height: 1.5;
+	padding: 4px 8px;
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.cue-button:focus,
+.cue-button:hover,
+.cue-playlist a.cue-button:focus,
+.cue-playlist a.cue-button:hover {
+	border-color: rgba(0, 0, 0, 0.5);
+	color: rgba(0, 0, 0, 0.9);
+	opacity: 1;
+	text-decoration: none;
+}
+
+.cue-button-icon,
+a.cue-button-icon {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	line-height: 12px;
+	height: 28px;
+	padding: 7px 8px;
+}
+
+.cue-button-icon svg {
+	display: inline-block;
+	fill: currentColor;
+	height: 12px;
+	vertical-align: middle;
+	width: 12px;
+}
+
+.cue-playlist .cue-track .cue-track-actions {
+	padding: 10px 20px 10px 10px;
+	text-align: right;
+	white-space: nowrap;
+	width: 10%;
+}
+
+.cue-playlist .cue-track .cue-track-length {
+	padding: 10px;
+	width: 5%;
+}
+
+/* Hide the AudioTheme logo. */
+.cue-playlist .mejs-container .mejs-layers .mejs-audiotheme-mark {
+	display: none;
+}
+
+.rtl .cue-playlist .cue-track .cue-track-actions {
+	padding-left: 20px;
+	padding-right: 10px;
+	text-align: left;
+}
+
+
+/* MediaElement.js buttons.
+----------------------------------------------------------------------------- */
+
+.mejs-popup-button,
+.mejs-share-button {
+	opacity: 0.6;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	z-index: 5;
+}
+
+.mejs-popup-button:focus,
+.mejs-popup-button:hover,
+.mejs-share-button:focus,
+.mejs-share-button:hover {
+	opacity: 1;
+}
+
+.is-embeddable .mejs-popup-button {
+	right: 40px;
+}
+
+.rtl .mejs-popup-button,
+.rtl .mejs-share-button {
+	left: 15px;
+	right: auto;
+}
+
+.rtl .is-embeddable .mejs-popup-button {
+	left: 40px;
+	right: auto;
+}
+
+
+/* Share Dialog
+----------------------------------------------------------------------------- */
+
+.cue-share-dialog {
+	background-color: rgba(0, 0, 0, 0.9);
+	box-sizing: border-box;
+	color: #fff;
+	display: none;
+	min-height: 190px;
+	padding: 20px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 10000;
+}
+
+.cue-share-dialog textarea {
+	background: #fff;
+	border-radius: 0;
+	color: #333;
+	font-family: monospace;
+	font-size: 13px;
+	line-height: 1.5;
+	padding: 5px 10px;
+	width: 100%;
+}
+
+.cue-share-dialog .cue-share-dialog-title {
+	color: #fff;
+	margin: 0 0 10px 0;
+	font-size: 18px;
+}
+
+.cue-share-dialog-close {
+	background: none;
+	border-color: #fff;
+	border-radius: 0;
+	border-style: solid;
+	border-width: 0;
+	box-shadow: none;
+	color: #fff;
+	cursor: pointer;
+	display: block;
+	height: 20px;
+	margin: 0;
+	padding: 0;
+	opacity: 0.6;
+	outline: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	transition: opacity .2s;
+	white-space: nowrap;
+	width: 20px;
+}
+
+.cue-share-dialog-close svg {
+	fill: currentColor;
+	vertical-align: middle;
+}
+
+.cue-share-dialog-close:focus,
+.cue-share-dialog-close:hover {
+	background: none;
+	opacity: 1;
+}
+
+.rtl .cue-share-dialog-close {
+	left: 15px;
+	right: auto;
+}
+
+
+/* Embedded Template
+----------------------------------------------------------------------------- */
+
+.cue-embed {
+	margin: 0;
+	padding: 0;
+}
+
+.cue-embed .cue-playlist {
+	/*border-radius: 0;*/
+	margin: 0;
+}
+
+.cue-embed .cue-playlist .cue-tracks {
+	box-shadow: none;
+	max-height: none;
+}
+
+.cue-embed .cue-skin-default.mejs-container {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	box-shadow: none;
+}
+
+.cue-embed .cue-share-dialog {
+	position: fixed;
+}

@@ -1,0 +1,127 @@
+@mixin element-invisible {
+  position: absolute;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+@mixin element-invisible-off {
+  position: relative;
+  height: auto;
+  width: auto;
+  overflow: inherit;
+  clip: none;
+}
+
+@mixin link($color, $text-decoration, $hover-color, $hover-text-decoration) {
+  color: $color;
+  text-decoration: $text-decoration;
+
+  &:visited {
+    color: $color;
+
+    &:hover,
+    &:focus {
+      color: $hover-color;
+      text-decoration: $hover-text-decoration;
+    }
+  }
+
+  &:hover,
+  &:focus {
+    color: $hover-color;
+    text-decoration: $hover-text-decoration;
+  }
+}
+
+@function hex($color, $percentage) {
+  @if $percentage == .1 {
+    @return lighten($color, 45%);
+  }
+  @if $percentage == .2 {
+    @return lighten($color, 40%);
+  }
+  @if $percentage == .3 {
+    @return lighten($color, 35%);
+  }
+  @if $percentage == .4 {
+    @return lighten($color, 30%);
+  }
+  @if $percentage == .5 {
+    @return lighten($color, 25%);
+  }
+  @if $percentage == .6 {
+    @return lighten($color, 20%);
+  }
+  @if $percentage == .7 {
+    @return lighten($color, 15%);
+  }
+  @if $percentage == .8 {
+    @return lighten($color, 10%);
+  }
+  @if $percentage == .9 {
+    @return lighten($color, 5%);
+  }
+}
+
+// Alpha Color
+// Include in an element to create a transparent background or color with a hex
+// value fallback for older browsers.
+@mixin alpha-color($type, $color, $percentage) {
+  @if $type == color {
+    color: hex($color, $percentage);
+    color: rgba($color, $percentage);
+  }
+  @if $type == background {
+    background-color: hex($color, $percentage);
+    background-color: rgba($color, $percentage);
+  }
+}
+
+@mixin hsla-fallback($property, $hsla, $fallback) {
+  #{$property}: $fallback;
+  #{$property}: $hsla;
+}
+
+@mixin button($font-color, $background-color, $border-color: $font-color, $hover-font-color: $font-color, $hover-background-color: $background-color, $hover-border-color: $border-color) {
+  @include font-size(0.857); // 12px
+
+  padding: 8px 16px 7px;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+  display: inline-block;
+  position: relative;
+  border: 1px solid $border-color;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out, color 0.2s ease-in-out, border 0.2s ease-in-out;
+
+  background: $background-color;
+  color: $font-color;
+  font-family: $sans;
+
+  &:link,
+  &:visited {
+    color: $font-color;
+  }
+
+  &:hover,
+  &:visited:hover {
+    background: $hover-background-color;
+    color: $hover-font-color;
+    border-color: $hover-border-color;
+    text-decoration: none;
+  }
+}
+
+@mixin placeholder($color) {
+  font-weight: 400;
+  color: $color;
+}
+
+@mixin expand-w-bc() {
+  width: 100vw !important;
+  margin-left: calc(-50vw + 50%) !important;
+}

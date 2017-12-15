@@ -1,0 +1,578 @@
+/**
+ * AudioTheme (plugin)
+ * @link https://audiotheme.com/
+ * -----------------------------------------------------------------------------
+ */
+
+
+/**
+ * Content
+ * -----------------------------------------------------------------------------
+ */
+
+.single-video .entry-header {
+	margin-bottom: 40px;
+}
+
+.single-video .entry-title {
+	margin-bottom: 0;
+}
+
+
+/* Gig
+------------------------------------------------------------------------------*/
+
+.single-audiotheme_gig .entry-header {
+	margin-bottom: 20px;
+}
+
+.single-audiotheme_gig .entry-subtitle .country-name,
+.single-audiotheme_gig .entry-subtitle .sep-country-name {
+	display: none;
+}
+
+.single-audiotheme_gig .entry-subtitle .gig-location + .gig-venue-name:before {
+	content: "\00b7";
+	padding: 0 10px;
+}
+
+.gig-meta {
+	color: #555;
+	font-family: "Roboto", sans-serif;
+	margin-bottom: 30px;
+}
+
+.gig-meta dl {
+	margin: 0 0 10px 0;
+}
+
+.gig-meta dl dd {
+	display: inline;
+}
+
+.gig-meta dl dd:after {
+	content: "\00b7";
+	padding: 0 5px;
+}
+
+.gig-meta dl dd:last-of-type:after {
+	display: none;
+}
+
+.gig-meta dl dt {
+	display: inline;
+	font-weight: 700;
+}
+
+.gig-meta dl dt:after {
+	content: ":\00a0";
+}
+
+.gig-meta .button {
+	margin-bottom: 0;
+}
+
+.gig-meta .gig-description {
+	margin-bottom: 10px;
+}
+
+.gig-meta .gig-description > :last-child {
+	margin: 0;
+}
+
+.gig-meta .gig-venue-name {
+	font-family: "Roboto", sans-serif;
+	font-size: 24px;
+	font-size: 2.4rem;
+	text-transform: none;
+}
+
+.gig-meta > :last-child {
+	margin-bottom: 0;
+}
+
+.venue-map-link {
+	display: none;
+}
+
+.venue-meta {
+	color: #555;
+	font-family: "Roboto", sans-serif;
+	margin-bottom: 40px;
+}
+
+.venue-meta dl {
+	margin: 0;
+}
+
+.venue-meta .venue-map iframe {
+	margin-bottom: 1em;
+}
+
+.venue-meta .venue-phone,
+.venue-meta .venue-website {
+	display: block;
+}
+
+
+/* Gigs
+------------------------------------------------------------------------------*/
+
+.gig-list {
+	font-family: "Roboto", sans-serif;
+	margin-bottom: 2.66666667em;
+}
+
+.gig-list .gig-card {
+	margin-bottom: 0;
+}
+
+.gig-list-header {
+	border-bottom: 1px solid #dedede;
+	color: #333;
+	display: none;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	font-size: 1.5rem;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	padding: 0 0 0.86666667em;
+	text-transform: uppercase;
+}
+
+.gig-list-header-location-sep,
+.gig-list-header-venue-sep {
+	display: none;
+}
+
+.gig-card,
+.gig-card + .gig-card {
+	border-top-width: 0;
+	padding: 0.86666667em 0 0.73333333em;
+}
+
+.gig-card {
+	border-bottom: 1px solid #dedede;
+	color: #555;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	font-family: "Roboto", sans-serif;
+	min-height: 5.46666667em;
+	position: relative;
+
+	-webkit-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+.gig-card dt,
+.gig-card dd {
+	font-weight: 400;
+	margin-bottom: 0;
+}
+
+.gig-card .gig-venue,
+.gig-card .gig-title {
+	font-size: 13px;
+	font-size: 1.3rem;
+}
+
+.gig-card dt.gig-venue,
+.gig-card .gig-title {
+	width: 100%;
+}
+
+.gig-card dd.gig-description {
+	font-size: 13px;
+	font-size: 1.3rem;
+	margin-top: 0.38461538em;
+}
+
+.gig-card dd.gig-description > :last-child {
+	margin-bottom: 0;
+}
+
+.gig-card .gig-permalink a {
+	background: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 0;
+}
+
+.gig-card .sep-country-name,
+.gig-card .country-name,
+.gig-card dt.gig-date {
+	display: none;
+}
+
+@media (min-width: 480px) {
+	.gig-list .gig-card {
+		min-height: 100%;
+	}
+
+	.gig-list .gig-card .gig-date {
+		padding-left: 20px;
+		text-align: right;
+		width: 33%;
+
+		-webkit-box-flex: 0;
+		-moz-box-flex: 0;
+		-webkit-flex: 0 1 auto;
+		-ms-flex: 0 1 auto;
+		flex: 0 1 auto;
+	}
+
+	.gig-list .gig-card .gig-title {
+		-webkit-box-flex: 1;
+		-moz-box-flex: 1;
+		-webkit-flex: 1 0 67%;
+		-ms-flex: 1 0 67%;
+		flex: 1 0 67%;
+	}
+
+	.gig-list .gig-card .gig-title,
+	.gig-list .gig-card .gig-venue {
+		font-size: 15px;
+		font-size: 1.5rem;
+	}
+
+	.gig-list .gig-card dt.gig-venue,
+	.gig-list .gig-card dd.gig-description {
+		padding-right: 33%;
+		width: 100%;
+
+		-webkit-box-flex: 1;
+		-moz-box-flex: 1;
+		-webkit-flex: 1 0 auto;
+		-ms-flex: 1 0 auto;
+		flex: 1 0 auto;
+	}
+}
+
+@media (min-width: 768px) {
+	.gig-list-header {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: flex;
+
+		-webkit-flex-flow: row wrap;
+		-ms-flex-flow: row wrap;
+		flex-flow: row wrap;
+	}
+
+	.gig-list-header-date {
+		-webkit-box-flex: 0;
+		-moz-box-flex: 0;
+		-webkit-flex: 0 1 33%;
+		-ms-flex: 0 1 33%;
+		flex: 0 1 33%;
+	}
+
+	.gig-list-header-location,
+	.gig-list-header-venue {
+		-webkit-box-flex: 1;
+		-moz-box-flex: 1;
+		-webkit-flex: 1 0 33%;
+		-ms-flex: 1 0 33%;
+		flex: 1 0 33%;
+	}
+}
+
+
+/* Record
+------------------------------------------------------------------------------*/
+
+.record-details {
+	display: table;
+	font-family: "Roboto", sans-serif;
+	margin-bottom: 40px;
+	width: 100%;
+}
+
+.record-details .record-artwork {
+	margin: 0;
+}
+
+.record-details .record-artwork img {
+	width: 100%;
+}
+
+.record-details-meta {
+	box-shadow: inset 0 0 0 1px #dedede;
+	padding: 40px 40px;
+}
+
+.record-meta {
+	margin: 0 0 20px 0;
+}
+
+.record-meta dl {
+	margin: 0;
+}
+
+.record-meta dl:before,
+.record-meta dl:after {
+	content: " ";
+	display: table;
+}
+
+.record-meta dl:after {
+	clear: both;
+}
+
+.record-meta dd {
+	clear: left;
+	color: #555;
+	float: right;
+	margin: 0;
+}
+
+.record-meta dt {
+	clear: right;
+	float: right;
+	font-weight: 700;
+}
+
+.record-meta dt:after {
+	content: ":\00A0";
+}
+
+@media screen and (min-width: 680px) and (max-width: 1023px), screen and (min-width: 1280px) {
+	.record-details {
+		box-shadow: inset 0 0 0 1px #dedede;
+		display: table;
+		font-family: "Roboto", sans-serif;
+		margin-bottom: 40px;
+		width: 100%;
+	}
+
+	.record-details .record-artwork {
+		display: table-cell;
+		max-width: 280px;
+		vertical-align: top;
+	}
+
+	.record-details .record-artwork img {
+		max-width: 280px;
+		width: auto;
+	}
+
+	.record-details .record-details-meta {
+		display: table-cell;
+		vertical-align: top;
+		width: 100%;
+	}
+}
+
+
+/* AudioTheme: Tracklist
+------------------------------------------------------------------------------*/
+
+.tracklist-area audio,
+.tracklist-area .mejs-container {
+	display: none;
+}
+
+.tracklist-title {
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	font-size: 1.5rem;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	margin-bottom: 1em;
+	text-transform: uppercase;
+}
+
+.record-tracklist {
+	border-top: 1px solid #dedede;
+	color: #555;
+	counter-reset: li;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	font-size: 1.5rem;
+	margin-bottom: 2.66666667em;
+	padding: 0;
+}
+
+.record-tracklist .track {
+	border-bottom: 1px solid #dedede;
+	display: table;
+	margin-bottom: 0;
+	padding: 1em 0;
+	width: 100%;
+}
+
+.record-tracklist .track:before {
+	color: #666;
+	content: counter(li);
+	counter-increment: li;
+	display: table-cell;
+	padding-left: 10px;
+	text-align: center;
+	width: 70px;
+}
+
+.record-tracklist .track-title {
+	display: table-cell;
+}
+
+.record-tracklist .track-meta {
+	display: table-cell;
+	text-align: left;
+}
+
+.record-tracklist .track-current-time,
+.record-tracklist .track-duration,
+.record-tracklist .track-sep-duration {
+	display: none;
+	font-size: 13px;
+	font-size: 1.3rem;
+}
+
+.record-tracklist .track.is-playable {
+	cursor: pointer;
+}
+
+.record-tracklist .track.is-playable:before {
+	content: "\f152";
+	cursor: pointer;
+	display: table-cell;
+}
+
+.record-tracklist .track.is-playable .track-duration {
+	display: inline;
+}
+
+.record-tracklist .track.is-playing:before {
+	content: "\f151";
+}
+
+.record-tracklist .track.is-playing .track-current-time,
+.record-tracklist .track.is-playing .track-duration,
+.record-tracklist .track.is-playing .track-sep-duration {
+	display: inline;
+}
+
+
+/**
+ * Widgets
+ * -----------------------------------------------------------------------------
+ */
+
+
+/* AudioTheme: Record, Track, and Video
+------------------------------------------------------------------------------*/
+
+.widget_audiotheme_record:before,
+.widget_audiotheme_track:before,
+.widget_audiotheme_record:after,
+.widget_audiotheme_track:after {
+	content: " ";
+	display: table;
+}
+
+.widget_audiotheme_record:after,
+.widget_audiotheme_track:after {
+	clear: both;
+}
+
+.widget_audiotheme_record p,
+.widget_audiotheme_track p {
+	margin-bottom: 1.2em;
+}
+
+.widget_audiotheme_record p:last-child,
+.widget_audiotheme_track p:last-child {
+	margin-bottom: 0;
+}
+
+.widget_audiotheme_record .more a,
+.widget_audiotheme_track .more a {
+	background-color: #555;
+	border: 0;
+	border-radius: 0;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 11px;
+	font-size: 1.1rem;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	line-height: 1.90909091;
+	margin-bottom: 0.53846154em;
+	padding: 1.11538462em 1.53846154em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.widget_audiotheme_record .more a:focus,
+.widget_audiotheme_track .more a:focus {
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+}
+
+.hover .widget_audiotheme_record .more a:hover,
+.hover .widget_audiotheme_track .more a:hover {
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+}
+
+.widget_audiotheme_record .featured-image,
+.widget_audiotheme_track .featured-image {
+	float: right;
+	margin-bottom: 1.2em;
+	margin-left: 1.2em;
+}
+
+
+/* AudioTheme: Upcoming Gigs
+------------------------------------------------------------------------------*/
+
+.widget_audiotheme_upcoming_gigs dl {
+	border-bottom: 1px solid #ddd;
+	margin: 0 0 1em;
+	min-height: 3.33333333em;
+	padding: 0 8.66666667em 1em 0;
+	position: relative;
+}
+
+.widget_audiotheme_upcoming_gigs dl:last-of-type {
+	border-bottom-width: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.widget_audiotheme_upcoming_gigs dt {
+	font-weight: 400;
+}
+
+.widget_audiotheme_upcoming_gigs dd.date {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 7.33333333em;
+}
+
+.widget_audiotheme_upcoming_gigs dd.location {
+	color: #555;
+	font-size: 13px;
+	font-size: 1.3rem;
+}
+
+.widget_audiotheme_upcoming_gigs .sep-country-name,
+.widget_audiotheme_upcoming_gigs .country-name,
+.widget_audiotheme_upcoming_gigs .venue,
+.widget_audiotheme_upcoming_gigs .description {
+	display: none;
+}

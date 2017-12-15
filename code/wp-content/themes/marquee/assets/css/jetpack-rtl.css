@@ -1,0 +1,450 @@
+/**
+ * Jetpack (plugin)
+ * @link https://jetpack.com/
+ * -----------------------------------------------------------------------------
+ */
+
+
+/**
+ * Comments
+ * -----------------------------------------------------------------------------
+ */
+
+.comment-form-wrapper #commentform {
+	margin: 1.33333333em;
+}
+
+.comments-wrapper #respond h3 small {
+	float: none;
+}
+
+/* Override inline negative margins added on WP.com when replying to a comment. */
+.highlander-comment {
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+}
+
+@media (min-width: 768px) {
+	.comment-form-wrapper #commentform {
+		margin: 2.66666667em;
+	}
+}
+
+
+/* Infinite Scroll
+------------------------------------------------------------------------------*/
+
+.infinite-scroll .posts-navigation {
+	display: none;
+}
+
+#infinite-handle {
+	margin-bottom: 1.33333333em;
+}
+
+#infinite-handle span {
+	background-color: #555;
+	border: 0;
+	border-radius: 0;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	display: block;
+	font-size: 11px;
+	font-size: 1.1rem;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	line-height: 1.90909091;
+	margin: 0;
+	margin-bottom: 0.53846154em;
+	padding: 1.11538462em 1.53846154em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#infinite-handle span:focus {
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+}
+
+.hover #infinite-handle span:hover {
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+}
+
+.infinite-loader {
+	display: block;
+	margin-bottom: 1.33333333em;
+}
+
+.infinite-loader .spinner {
+	margin: auto;
+	right: 0 !important;
+}
+
+#infinite-footer {
+	font-family: "Roboto", sans-serif;
+}
+
+#infinite-footer .blog-credits,
+#infinite-footer .blog-info {
+	color: #fff;
+	font-size: 13px;
+	font-size: 1.3rem;
+	line-height: 2.30769231em;
+}
+
+#infinite-footer .blog-credits a,
+#infinite-footer .blog-info a {
+	color: #fff;
+	font-size: 13px;
+	font-size: 1.3rem;
+}
+
+#infinite-footer .blog-credits a:focus,
+#infinite-footer .blog-info a:focus,
+#infinite-footer .blog-credits a:hover,
+#infinite-footer .blog-info a:hover {
+	color: #fff;
+}
+
+#infinite-footer .container {
+	background: rgba(0, 0, 0, 0.8);
+	padding: 0 15px;
+	width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+	.infinite-scroll.neverending .site-footer {
+		display: none;
+	}
+
+	.infinity-end.neverending .site-footer {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	#infinite-footer {
+		display: none;
+	}
+}
+
+
+/**
+ * Sharing
+ * -----------------------------------------------------------------------------
+ */
+
+div#jp-relatedposts {
+	margin: 0;
+	padding: 0;
+}
+
+div.sharedaddy h3.sd-title,
+div#jp-relatedposts h3.jp-relatedposts-headline,
+div#jp-relatedposts div.jp-relatedposts-items .jp-relatedposts-post .jp-relatedposts-post-context {
+	font-family: "Roboto", sans-serif;
+	font-size: 11px;
+	font-size: 1.1rem;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	line-height: 1.7;
+	text-transform: uppercase;
+}
+
+body.highlander-light h3.sd-title:before,
+body div.sharedaddy h3.sd-title:before {
+	display: none;
+}
+
+div#jp-relatedposts h3.jp-relatedposts-headline em {
+	font-weight: 400;
+}
+
+div#jp-relatedposts h3.jp-relatedposts-headline em:before {
+	display: none;
+}
+
+div#jp-relatedposts div.jp-relatedposts-items-visual {
+	margin: 0;
+}
+
+div#jp-relatedposts div.jp-relatedposts-items .jp-relatedposts-post span,
+div#jp-relatedposts div.jp-relatedposts-items-visual h4.jp-relatedposts-post-title {
+	color: #555;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	font-size: 1.5rem;
+	font-weight: 400;
+	letter-spacing: normal;
+	line-height: 1.3;
+	margin-bottom: 0.2em;
+}
+
+div#jp-relatedposts div.jp-relatedposts-items p {
+	font-size: 13px;
+	font-size: 1.3rem;
+}
+
+div#jp-relatedposts div.jp-relatedposts-items .jp-relatedposts-post,
+div#jp-relatedposts div.jp-relatedposts-items .jp-relatedposts-post img.jp-relatedposts-post-img,
+div#jp-relatedposts div.jp-relatedposts-items .jp-relatedposts-post span {
+	width: 100%;
+}
+
+div#jp-relatedposts div.jp-relatedposts-items .jp-relatedposts-post {
+	border-top: 1px solid #dedede;
+	opacity: 1;
+	padding: 15px 0 0 0;
+	position: relative;
+}
+
+div#jp-relatedposts div.jp-relatedposts-items-visual .jp-relatedposts-post {
+	padding-right: 80px;
+}
+
+a.jp-relatedposts-post-a {
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	width: 60px;
+}
+
+a.jp-relatedposts-post-a,
+div#jp-relatedposts div.jp-relatedposts-items-visual div.jp-relatedposts-post-nothumbs a.jp-relatedposts-post-aoverlay {
+	top: 17px;
+}
+
+a.jp-relatedposts-post-a.jp-relatedposts-post-aoverlay {
+	background-color: #f7f7f7;
+}
+
+p.jp-relatedposts-post-excerpt {
+	display: none;
+}
+
+div#jp-relatedposts div.jp-relatedposts-items .jp-relatedposts-post .jp-relatedposts-post-title a {
+	position: static;
+	width: auto;
+}
+
+div#jp-relatedposts div.jp-relatedposts-items .jp-relatedposts-post:last-child {
+	margin-bottom: 0;
+}
+
+div#jp-relatedposts div.jp-relatedposts-items .jp-relatedposts-post .jp-relatedposts-post-context {
+	color: #777;
+	opacity: 1;
+}
+
+
+/**
+ * Widgets (includes WP.com widgets)
+ * -----------------------------------------------------------------------------
+ */
+
+/* Author Grid */
+.widget_author_grid li {
+	display: inline-block;
+	margin: 5px;
+}
+
+.widget_author_grid ul {
+	margin: -5px;
+	padding: 0;
+}
+
+body .gcard {
+	z-index: 80;
+}
+
+/* Authors */
+.widget_authors a {
+	display: block;
+	margin-bottom: 0.66666667em;
+}
+
+.widget_authors ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.widget_authors ul ul {
+	margin-bottom: 1.7em;
+}
+
+.widget_authors ul ul a {
+	display: inline;
+	margin-bottom: 0;
+}
+
+.widget_authors .avatar {
+	display: block;
+	margin: 0 0 0.66666667em;
+}
+
+/* Blog Stats */
+.widget_blog-stats {
+	list-style: none;
+}
+
+/* Blogs I Follow */
+.widget_jp_blogs_i_follow ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Facebook Likebox */
+.site .widget_facebook_likebox iframe {
+	margin-bottom: 0;
+}
+
+.home-widgets .widget_facebook_likebox,
+.home-widgets .widget_twitter_timeline {
+	min-height: 400px;
+}
+
+/* Goodreads */
+.gr_custom_widget h2,
+.gr_custom_widget > div > div {
+	margin-bottom: 1.7em;
+}
+
+/* Gravatar Profiles */
+.widget-grofile a {
+	text-decoration: underline;
+}
+
+.widget-grofile ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.widget-grofile h4 {
+	font-size: 15px;
+	font-size: 1.5rem;
+	letter-spacing: normal;
+	margin: 1em 0 0.5em;
+	text-transform: none;
+}
+
+.widget-grofile .grofile-accounts li:before {
+	display: none;
+}
+
+.widget-grofile .grofile-links li {
+	display: inline-block;
+}
+
+.widget-grofile .grofile-links li + li:before {
+	content: "\00B7";
+	display: inline-block;
+	margin: 0;
+}
+
+.widget-grofile .grofile-full-link {
+	background-color: #555;
+	border: 0;
+	border-radius: 0;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 11px;
+	font-size: 1.1rem;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	line-height: 1.90909091;
+	margin-bottom: 0.53846154em;
+	padding: 1.11538462em 1.53846154em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.widget-grofile .grofile-full-link:focus {
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+}
+
+.hover .widget-grofile .grofile-full-link:hover {
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+}
+
+.widget_image .wp-caption-text {
+	color: #333;
+	font-size: 15px;
+	font-size: 1.5rem;
+	line-height: 1.7;
+	padding: 1em 0 0;
+}
+
+/* Milestone */
+.milestone-widget .milestone-content {
+	margin: 0;
+	max-width: 422px;
+}
+
+/* My Community */
+.widget_jetpack_my_community .avatar {
+	border-radius: 100%;
+	display: block;
+}
+
+.widget_jetpack_my_community .widgets-multi-column-grid ul li {
+	display: inline-block;
+	float: none;
+	padding: 0 0.66666667em 1.33333333em;
+}
+
+/* Posts I Like */
+.widget_jetpack_posts_i_like .widgets-grid-layout {
+	margin: 0 -0.33333333em;
+}
+
+.widget_jetpack_posts_i_like .widget-grid-view-image {
+	display: inline-block;
+	float: none;
+	max-width: 33%;
+}
+
+.widget_jetpack_posts_i_like .widget-grid-view-image a:focus {
+	opacity: 0.6;
+}
+
+.hover .widget_jetpack_posts_i_like .widget-grid-view-image a:hover {
+	opacity: 0.6;
+}
+
+.widget_jetpack_posts_i_like .widget-grid-view-image a,
+.widget_jetpack_posts_i_like .widget-grid-view-image:nth-child(even) a {
+	margin: 0 0.33333333em 0.66666667em;
+	opacity: 1;
+}
+
+/* Subscription */
+.widget_blog_subscription label {
+	color: #333;
+}
+
+.widget_blog_subscription div {
+	background-color: transparent !important;
+	border-width: 0 !important;
+	color: inherit !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.widget_blog_subscription #subscribe-field {
+	padding: 0.84615385em 1.15384615em !important;
+	width: 100% !important;
+}

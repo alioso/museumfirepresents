@@ -1,0 +1,32 @@
+.customize-billboard-editor-pane {
+	background: #f1f1f1;
+	border-top: solid 1px #ddd;
+	display: block;
+	height: 250px;
+	position: absolute;
+	right: 0;
+	bottom: -251px;
+	left: 0;
+	transition: bottom 0.2s;
+}
+
+.customize-billboard-editor-pane.is-active {
+	bottom: 0;
+}
+
+.customize-billboard-editor-pane .wp-editor-tools {
+	padding-top: 5px;
+	padding-right: 10px;
+}
+
+.customize-billboard-editor-pane .wp-media-buttons {
+	padding-left: 5px;
+}
+
+/* Make sure TinyMCE controls appear above the Customizer panel. */
+.mce-floatpanel,
+.mce-inline-toolbar-grp,
+.mce-tooltip,
+.wplink-autocomplete {
+	z-index: 500001 !important;
+}

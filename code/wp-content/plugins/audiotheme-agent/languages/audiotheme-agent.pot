@@ -1,0 +1,434 @@
+# Copyright (C) 2017 AudioTheme
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: AudioTheme Agent 1.3.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/audiotheme-agent\n"
+"POT-Creation-Date: 2017-04-25 18:20:33+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.3\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: classes/Client.php:507
+msgid "Cannot update an unregistered client."
+msgstr ""
+
+#: classes/Client.php:513
+msgid "Cannot update client metadata without a registration access token."
+msgstr ""
+
+#: classes/Client.php:871
+msgid "Cannot delete an unregistered client."
+msgstr ""
+
+#: classes/Client.php:887
+msgid "Cannot unregister a client without a registration access token."
+msgstr ""
+
+#: classes/Client.php:1009
+msgid "Missing access token."
+msgstr ""
+
+#: classes/Client.php:1013
+msgid "Missing refresh token."
+msgstr ""
+
+#: classes/Client.php:1070
+msgid "An unexpected status code was returned by the remote server. Status: %d"
+msgstr ""
+
+#: classes/Client.php:1120
+msgid "Are you sure you want authorize this connection? Please try again."
+msgstr ""
+
+#: classes/Client.php:1125
+msgid "Please authorize the connection before continuing."
+msgstr ""
+
+#: classes/Client.php:1131
+msgid "The authorization server returned an error."
+msgstr ""
+
+#: classes/Client.php:1146
+msgid "A valid authorization code was not provided by the authorization server."
+msgstr ""
+
+#: classes/Generator/ChildTheme.php:51
+msgid "Invalid parent theme slug."
+msgstr ""
+
+#: classes/Generator/ChildTheme.php:59
+msgid "Child theme directory already exists."
+msgstr ""
+
+#: classes/Generator/ChildTheme.php:63
+msgid "Could not create child theme directory."
+msgstr ""
+
+#: classes/Package/Plugin.php:84
+msgid "Plugin"
+msgstr ""
+
+#: classes/Package/Plugin.php:110 classes/Package/Theme.php:89
+msgid "View Documentation"
+msgstr ""
+
+#: classes/Package/Plugin.php:111 classes/Package/Theme.php:90
+msgid "View Changelog"
+msgstr ""
+
+#: classes/Package/Plugin.php:122 classes/Package/Theme.php:77
+msgid "Install Now"
+msgstr ""
+
+#: classes/Package/Plugin.php:138
+msgid "The plugin is already installed."
+msgstr ""
+
+#: classes/Package/Plugin.php:142
+msgid "You do not have sufficient permissions to install plugins on this site."
+msgstr ""
+
+#: classes/Package/Plugin.php:193 classes/Package/Theme.php:203
+msgid "Installed"
+msgstr ""
+
+#: classes/Package/Plugin.php:198
+msgid "Network Activate"
+msgstr ""
+
+#: classes/Package/Plugin.php:198
+msgid "Activate"
+msgstr ""
+
+#: classes/Package/Theme.php:53
+msgid "Theme"
+msgstr ""
+
+#: classes/Package/Theme.php:71
+msgid "Theme directory exists."
+msgstr ""
+
+#: classes/Package/Theme.php:94
+msgid "Create Child Theme"
+msgstr ""
+
+#: classes/Package/Theme.php:98
+msgid "Preview Child Theme"
+msgstr ""
+
+#: classes/Package/Theme.php:104
+msgid "Edit Child Theme"
+msgstr ""
+
+#: classes/Package/Theme.php:126
+msgid "You do not have sufficient permissions to install themes on this site."
+msgstr ""
+
+#: classes/Package/Theme.php:201
+msgid "Active"
+msgstr ""
+
+#: classes/Package/Theme.php:208
+msgid "Preview"
+msgstr ""
+
+#: classes/Plugin.php:141
+msgid "Manage"
+msgstr ""
+
+#: classes/Provider/AJAX.php:41 classes/Provider/AJAX.php:88
+msgid "Unauthorized request."
+msgstr ""
+
+#: classes/Provider/AJAX.php:48 classes/Provider/AJAX.php:65
+#: classes/Provider/AJAX.php:97
+msgid "Error: %s"
+msgstr ""
+
+#: classes/Provider/AJAX.php:51
+msgid "Error: Your site title must not be blank."
+msgstr ""
+
+#: classes/Provider/AJAX.php:125
+msgid "Invalid package."
+msgstr ""
+
+#: classes/Provider/AJAX.php:130
+msgid "Sorry, you are not allowed to install plugins on this site."
+msgstr ""
+
+#: classes/Provider/AJAX.php:133 classes/Provider/AJAX.php:165
+msgid "Sorry, you are not allowed to install themes on this site."
+msgstr ""
+
+#: classes/Provider/AJAX.php:144
+msgid "Unable to connect to the filesystem. Please install manually."
+msgstr ""
+
+#: classes/Provider/UpdateManager.php:200
+msgid ""
+"An unexpected error occurred. Something may be wrong with the update API or "
+"this server&#8217;s configuration."
+msgstr ""
+
+#: classes/Provider/UpdateManager.php:387
+msgid ""
+"Connect the AudioTheme Agent to receive automatic updates for this plugin. "
+"<a href=\"%s\" target=\"_top\">Connect now</a>."
+msgstr ""
+
+#: classes/Provider/UpdateManager.php:392
+msgid ""
+"Connect the AudioTheme Agent to receive automatic updates for this theme. "
+"<a href=\"%s\" target=\"_top\">Connect now</a>."
+msgstr ""
+
+#: classes/Screen/Main/Subscriptions.php:61
+msgid "Plugins"
+msgstr ""
+
+#: classes/Screen/Main/Subscriptions.php:62
+msgid "Themes"
+msgstr ""
+
+#: classes/Screen/Main/Subscriptions.php:116 views/help/client-status.php:8
+msgid "Client Status"
+msgstr ""
+
+#: classes/Screen/Main/Subscriptions.php:127
+msgid "Disconnect Site"
+msgstr ""
+
+#: classes/Screen/Main.php:107 views/screen/subscriptions.php:11
+msgid "Subscriptions"
+msgstr ""
+
+#: classes/Screen/Main.php:112
+msgid "Help"
+msgstr ""
+
+#: classes/Screen/Main.php:120
+msgid "Logs"
+msgstr ""
+
+#: views/help/client-status.php:2
+msgid ""
+"The first time you connect your site to AudioTheme.com, it's registered as "
+"an approved application, which allows it to access information related to "
+"your account. The information below details the status of your site's "
+"connection to help troubleshoot potential issues."
+msgstr ""
+
+#: views/help/client-status.php:13
+msgid "Registered"
+msgstr ""
+
+#: views/help/client-status.php:14 views/help/client-status.php:22
+#: views/help/client-status.php:32
+msgid "Yes"
+msgstr ""
+
+#: views/help/client-status.php:14 views/help/client-status.php:22
+#: views/help/client-status.php:32
+msgid "No"
+msgstr ""
+
+#: views/help/client-status.php:17
+msgid "Client ID"
+msgstr ""
+
+#: views/help/client-status.php:18
+msgid "Not Registered"
+msgstr ""
+
+#: views/help/client-status.php:21
+msgid "Authorized"
+msgstr ""
+
+#: views/help/client-status.php:26
+msgid "Token Expiration"
+msgstr ""
+
+#: views/help/client-status.php:31
+msgid "Identity Crisis"
+msgstr ""
+
+#: views/help/client-status.php:39
+msgid "Update Site Information"
+msgstr ""
+
+#: views/help/client-status.php:44
+msgid ""
+"If you change your <strong>Site Title</strong>, <strong>Site "
+"Address</strong>, or <strong>Site Icon</strong> the registered information "
+"may need to be updated. This usually happens when migrating from a "
+"development or staging server to a live server."
+msgstr ""
+
+#: views/help/client-status.php:50
+msgid ""
+"Some of the registered details and their current values are displayed in "
+"the table below to help determine if anything has changed."
+msgstr ""
+
+#: views/help/client-status.php:57
+msgid "Registered Value"
+msgstr ""
+
+#: views/help/client-status.php:58
+msgid "Current Value"
+msgstr ""
+
+#: views/help/client-status.php:63
+msgid "Client Name"
+msgstr ""
+
+#: views/help/client-status.php:68
+msgid "Client URI"
+msgstr ""
+
+#: views/help/client-status.php:73
+msgid "Logo URI"
+msgstr ""
+
+#: views/help/client-status.php:81
+msgid ""
+"If you recently imported your database from a testing server, you should "
+"only update the site details if this is the live server. If you have "
+"another WordPress installation using the same credentials, it may stop "
+"working unless you disconnect and resubscribe."
+msgstr ""
+
+#: views/help/client-status.php:84
+msgid "Update Now"
+msgstr ""
+
+#: views/help/disconnect-client.php:2
+msgid ""
+"In rare cases, it may be necessary to disconnect your site and start from a "
+"clean slate to fix a connection that is out of sync."
+msgstr ""
+
+#: views/help/disconnect-client.php:5
+msgid "You should only disconnect your site as a last resort."
+msgstr ""
+
+#: views/help/disconnect-client.php:8
+msgid "Disconnect Now"
+msgstr ""
+
+#: views/screen/subscriptions.php:5
+msgid "Outdated client information has been detected."
+msgstr ""
+
+#: views/screen/subscriptions.php:6
+msgid "Learn more."
+msgstr ""
+
+#: views/screen/subscriptions.php:16
+msgid "Subscription"
+msgstr ""
+
+#: views/screen/subscriptions.php:17
+msgid "Status"
+msgstr ""
+
+#: views/screen/subscriptions.php:18
+msgid "Renewal Date"
+msgstr ""
+
+#: views/screen/subscriptions.php:26
+msgid ""
+"Your site has been disconnected. Please reconnect to continue receiving "
+"updates and support."
+msgstr ""
+
+#: views/screen/subscriptions.php:38
+msgid "Connect to AudioTheme.com"
+msgstr ""
+
+#: views/screen/subscriptions.php:45
+msgid ""
+"Enter a connection token from your <a href=\"%s\" "
+"target=\"_blank\">dashboard on AudioTheme.com</a> to enable automatic "
+"updates for this site."
+msgstr ""
+
+#: views/screen/subscriptions.php:54
+msgid "Connect"
+msgstr ""
+
+#: views/screen/subscriptions.php:69
+msgid "Product"
+msgstr ""
+
+#: views/screen/subscriptions.php:70
+msgid "Installed Version"
+msgstr ""
+
+#: views/screen/subscriptions.php:71
+msgid "Current Release"
+msgstr ""
+
+#: views/screen/subscriptions.php:94
+msgid "Disconnect"
+msgstr ""
+
+#: views/screen/support.php:6
+msgid "Priority Support"
+msgstr ""
+
+#: views/screen/support.php:18
+msgid "Support is only available with an active subscription."
+msgstr ""
+
+#: views/screen/support.php:23
+msgid ""
+"Please <a href=\"https://audiotheme.com/support/audiotheme-agent/\" "
+"target=\"_blank\">connect your site</a> to receive automatic updates and "
+"support. After connecting, you can send priority support requests directly "
+"from this screen."
+msgstr ""
+
+#: views/screen/support.php:40
+msgid "Knowledge Base"
+msgstr ""
+
+#: views/screen/support.php:45
+msgid ""
+"The knowledge base includes helpful articles for getting started, theme "
+"setup guides, and answers to common questions."
+msgstr ""
+
+#: views/screen/support.php:50
+msgid ""
+"<a href=\"https://audiotheme.com/support/\" target=\"_blank\">Browse the "
+"articles</a> now or search below:"
+msgstr ""
+
+#: views/screen/support.php:58
+msgid "Search"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Connect to AudioTheme.com to directly install premium themes and plugins, "
+"automatically update installed products, manage your subscriptions, and "
+"receive priority support."
+msgstr ""

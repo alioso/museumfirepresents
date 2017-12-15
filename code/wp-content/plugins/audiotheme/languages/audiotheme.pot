@@ -1,0 +1,1939 @@
+# Copyright (C) 2017 AudioTheme
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: AudioTheme 2.1.1\n"
+"Report-Msgid-Bugs-To: https://audiotheme.com/support/\n"
+"POT-Creation-Date: 2017-07-05 15:46:47+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: admin/functions.php:26
+msgid "Add"
+msgstr ""
+
+#: admin/views/dashboard-features.php:8
+#: admin/views/screen-dashboard-header.php:21
+msgid ""
+"AudioTheme has the tools you need to easily manage your gigs, discography, "
+"videos and more."
+msgstr ""
+
+#: admin/views/dashboard-features.php:19
+#: admin/views/screen-dashboard-modules.php:15
+msgid ""
+"Gigs, Discography, and Videos are the backbone of AudioTheme. Explore each "
+"feature below or use the menu options to the left to get started."
+msgstr ""
+
+#: admin/views/dashboard-features.php:26
+msgid "Gigs &amp; Venues"
+msgstr ""
+
+#: admin/views/dashboard-features.php:29
+msgid ""
+"<strong>Keep fans updated with live performances, tour dates and venue "
+"information."
+msgstr ""
+
+#: admin/views/dashboard-features.php:32 classes/Module/Gigs.php:193
+msgid ""
+"Schedule all the details about your next show, including location (address, "
+"city, state), dates, times, ticket prices and links to ticket purchasing. "
+"Set up your venue information by creating new venues and assigning shows to "
+"venues you've already created. You also have the ability to feature each "
+"venue's website, along with their contact information like email address "
+"and phone number."
+msgstr ""
+
+#: admin/views/dashboard-features.php:35 admin/views/dashboard-features.php:52
+#: admin/views/dashboard-features.php:69
+msgid "<strong>Try it out:"
+msgstr ""
+
+#: admin/views/dashboard-features.php:35 classes/Module/Gigs.php:196
+msgid "Add a gig"
+msgstr ""
+
+#: admin/views/dashboard-features.php:43 classes/Module/Discography.php:53
+msgid "Discography"
+msgstr ""
+
+#: admin/views/dashboard-features.php:46
+msgid ""
+"<strong>Put together your albums, assign tracks, plug in your cover art and "
+"go."
+msgstr ""
+
+#: admin/views/dashboard-features.php:49
+msgid ""
+"Upload cover images, place titles and assign tracks. Everything you need to "
+"build your discography is literally at your fingertips. You can also enter "
+"links to let your music fans know where they can buy your music. We help "
+"guide you through the process to create a dynamic, user friendly "
+"discography page to enhance your online presence."
+msgstr ""
+
+#: admin/views/dashboard-features.php:52 classes/Module/Discography.php:152
+msgid "Add a record"
+msgstr ""
+
+#: admin/views/dashboard-features.php:60 classes/Module/Videos.php:53
+msgid "Videos"
+msgstr ""
+
+#: admin/views/dashboard-features.php:63
+msgid ""
+"<strong>Easily build your video galleries from over a dozen popular video "
+"services."
+msgstr ""
+
+#: admin/views/dashboard-features.php:66 classes/Module/Videos.php:143
+msgid ""
+"Showcasing your videos doesn't need to be a hassle. All of our themes allow "
+"you the ability to create your video galleries by simply embedding your "
+"videos from a number of video services, including: YouTube, Vimeo, "
+"WordPress.tv, DailyMotion, blip.tv, Flickr (images and video), Viddler, "
+"Hulu, Qik, Revision3, and FunnyorDie.com."
+msgstr ""
+
+#: admin/views/dashboard-features.php:69 classes/Module/Videos.php:146
+msgid "Add a video"
+msgstr ""
+
+#: admin/views/dashboard-features.php:77
+#: admin/views/screen-dashboard-footer.php:15
+msgid "Need Help?"
+msgstr ""
+
+#: admin/views/dashboard-features.php:79
+#: admin/views/screen-dashboard-footer.php:17
+msgid ""
+"Browse our <a href=\"https://audiotheme.com/faqs/\" "
+"target=\"_blank\">Frequently Asked Questions</a> or read the <a "
+"href=\"https://audiotheme.com/support/audiotheme/\" "
+"target=\"_blank\">AudioTheme documentation</a>."
+msgstr ""
+
+#: admin/views/dashboard-features.php:83
+#: admin/views/screen-dashboard-footer.php:21
+msgid ""
+"For additional help, visit the AudioTheme website for <a "
+"href=\"https://audiotheme.com/support/\" target=\"_blank\">priority "
+"support</a>."
+msgstr ""
+
+#: admin/views/dashboard-features.php:88
+#: admin/views/screen-dashboard-footer.php:26
+msgid "Email Updates"
+msgstr ""
+
+#: admin/views/dashboard-features.php:90
+#: admin/views/screen-dashboard-footer.php:28
+msgid "Sign up for the latest updates, discounts, new products and more."
+msgstr ""
+
+#: admin/views/dashboard-features.php:93
+#: admin/views/screen-dashboard-footer.php:31
+msgid "Email Address"
+msgstr ""
+
+#: admin/views/dashboard-features.php:109
+#: admin/views/screen-dashboard-footer.php:47
+msgid "Follow @AudioTheme on Twitter"
+msgstr ""
+
+#: admin/views/edit-gig.php:44 classes/Screen/ManageGigs.php:471
+#: templates/single-gig.php:55
+msgid "Time"
+msgstr ""
+
+#: admin/views/edit-gig.php:56 classes/Screen/ManageGigs.php:358
+msgid "Venue"
+msgstr ""
+
+#: admin/views/edit-gig.php:66
+msgid "Note"
+msgstr ""
+
+#: admin/views/edit-gig.php:70
+msgid ""
+"A description of the gig to display within the list of gigs. Who is the "
+"opening act, special guests, etc? Keep it short."
+msgstr ""
+
+#: admin/views/edit-record-links.php:16
+msgid "Links"
+msgstr ""
+
+#: admin/views/edit-record-links.php:22
+msgid "Add URL"
+msgstr ""
+
+#: admin/views/edit-record-links.php:25
+#: admin/views/edit-record-tracklist.php:31
+msgid "The order has been changed."
+msgstr ""
+
+#: admin/views/edit-record-links.php:26
+#: admin/views/edit-record-tracklist.php:32
+msgid "Save your changes."
+msgstr ""
+
+#: admin/views/edit-record-links.php:39
+msgid "Text"
+msgstr ""
+
+#: admin/views/edit-record-links.php:40
+msgid "URL"
+msgstr ""
+
+#: admin/views/edit-record-tracklist.php:16
+msgid "Tracks"
+msgstr ""
+
+#: admin/views/edit-record-tracklist.php:19
+#: admin/views/edit-record-tracklist.php:38
+msgid "Add Track"
+msgstr ""
+
+#: admin/views/edit-venue-notes.php:14
+msgid ""
+"Notes and contact information below are for personal use and won't be "
+"displayed on the front end."
+msgstr ""
+
+#: admin/views/edit-venue-notes.php:19 admin/views/templates-venue.php:60
+msgid "Name"
+msgstr ""
+
+#: admin/views/edit-venue-notes.php:23 admin/views/edit-venue.php:54
+#: admin/views/templates-venue.php:104 classes/Screen/ManageVenues.php:96
+msgid "Phone"
+msgstr ""
+
+#: admin/views/edit-venue-notes.php:27
+msgid "Email"
+msgstr ""
+
+#: admin/views/edit-venue-notes.php:31
+msgid "Notes"
+msgstr ""
+
+#: admin/views/edit-venue.php:15 admin/views/screen-dashboard-modules.php:51
+msgid "Details"
+msgstr ""
+
+#: admin/views/edit-venue.php:22 admin/views/templates-venue.php:66
+msgid "Address"
+msgstr ""
+
+#: admin/views/edit-venue.php:26 admin/views/templates-venue.php:72
+#: classes/Screen/ManageVenues.php:93
+msgid "City"
+msgstr ""
+
+#: admin/views/edit-venue.php:30 admin/views/templates-venue.php:78
+#: classes/Screen/ManageVenues.php:94
+msgid "State"
+msgstr ""
+
+#: admin/views/edit-venue.php:34 admin/views/templates-venue.php:84
+msgid "Postal Code"
+msgstr ""
+
+#: admin/views/edit-venue.php:38 admin/views/templates-venue.php:90
+#: classes/Screen/ManageVenues.php:95
+msgid "Country"
+msgstr ""
+
+#: admin/views/edit-venue.php:42 admin/views/templates-venue.php:96
+msgid "Time zone"
+msgstr ""
+
+#: admin/views/edit-venue.php:50 admin/views/templates-venue.php:110
+#: classes/Screen/ManageVenues.php:101
+msgid "Website"
+msgstr ""
+
+#: admin/views/meta-box-track-details.php:15
+#: admin/views/panel-track-record-details.php:25
+msgid "Artist:"
+msgstr ""
+
+#: admin/views/meta-box-track-details.php:20
+#: admin/views/templates-record.php:30
+msgid "Choose an MP3"
+msgstr ""
+
+#: admin/views/meta-box-track-details.php:21
+msgid "Use MP3"
+msgstr ""
+
+#: admin/views/meta-box-track-details.php:25
+msgid "Audio File URL:"
+msgstr ""
+
+#: admin/views/meta-box-track-details.php:29
+msgid "Allow downloads?"
+msgstr ""
+
+#: admin/views/meta-box-track-details.php:31
+msgid "Upload MP3"
+msgstr ""
+
+#: admin/views/meta-box-track-details.php:35
+msgid "Length:"
+msgstr ""
+
+#: admin/views/meta-box-track-details.php:40
+msgid "Purchase URL:"
+msgstr ""
+
+#: admin/views/meta-box-track-details.php:49 classes/Widget/Record.php:109
+msgid "Record:"
+msgstr ""
+
+#: admin/views/meta-box-track-details.php:62
+msgid "Associate this track with a record."
+msgstr ""
+
+#: admin/views/panel-track-record-details.php:32
+msgid "Release:"
+msgstr ""
+
+#: admin/views/panel-track-record-details.php:39
+msgid "Genre:"
+msgstr ""
+
+#: admin/views/screen-network-settings.php:14
+#: admin/views/screen-settings.php:14
+msgid "AudioTheme Settings"
+msgstr ""
+
+#: admin/views/templates-dashboard.php:14
+msgid "Show previous module"
+msgstr ""
+
+#: admin/views/templates-dashboard.php:15
+msgid "Show next module"
+msgstr ""
+
+#: admin/views/templates-dashboard.php:16 classes/Screen/ManageGigs.php:453
+msgid "Close overlay"
+msgstr ""
+
+#: admin/views/templates-record.php:20 classes/Screen/EditRecordArchive.php:69
+#: classes/Screen/EditVideoArchive.php:69
+msgid "Title"
+msgstr ""
+
+#: admin/views/templates-record.php:23 classes/Screen/EditRecord.php:166
+msgid "Artist"
+msgstr ""
+
+#: admin/views/templates-record.php:26
+msgid "Length"
+msgstr ""
+
+#: admin/views/templates-record.php:31
+msgid "Update MP3"
+msgstr ""
+
+#: admin/views/templates-record.php:36
+msgid "File URL"
+msgstr ""
+
+#: admin/views/templates-record.php:51 admin/views/templates-venue.php:20
+#: classes/Module/Gigs.php:412
+msgid "Edit"
+msgstr ""
+
+#: admin/views/templates-venue.php:15 classes/PostType/Venue.php:76
+msgid "Search Venues"
+msgstr ""
+
+#: admin/views/templates-venue.php:27
+msgid "Address:"
+msgstr ""
+
+#: admin/views/templates-venue.php:43
+msgid "Phone:"
+msgstr ""
+
+#: admin/views/templates-venue.php:50
+msgid "Website:"
+msgstr ""
+
+#: classes/AJAX/Admin.php:39
+msgid "Unauthorized request."
+msgstr ""
+
+#: classes/Module/Archives.php:70 classes/PostType/Archive.php:482
+msgid "Archives"
+msgstr ""
+
+#: classes/Module/Discography.php:64
+msgid ""
+"Upload album artwork, assign titles and tracks, add audio files, and enter "
+"links to purchase your music."
+msgstr ""
+
+#: classes/Module/Discography.php:146
+msgid "Everything you need to build your Discography is at your fingertips."
+msgstr ""
+
+#: classes/Module/Discography.php:149
+msgid ""
+"Your discography is the window through which listeners are introduced to "
+"and discover your music on the web. Encourage that discovery on your "
+"website through a detailed and organized history of your recorded output "
+"using the AudioTheme discography feature. Upload album artwork, assign "
+"titles and tracks, add audio files, and enter links to purchase your music."
+msgstr ""
+
+#: classes/Module/Discography.php:152 classes/Module/Gigs.php:196
+#: classes/Module/Videos.php:146
+msgid "Try it out:"
+msgstr ""
+
+#: classes/Module/Discography.php:166
+msgid "Add Record"
+msgstr ""
+
+#: classes/Module/Gigs.php:53
+msgid "Gigs & Venues"
+msgstr ""
+
+#: classes/Module/Gigs.php:64
+msgid ""
+"Share event details with your fans, including location, venue, date, time, "
+"and ticket prices."
+msgstr ""
+
+#: classes/Module/Gigs.php:190
+msgid "Keep fans updated with live performances, tour dates and venue information."
+msgstr ""
+
+#: classes/Module/Gigs.php:210
+msgid "Add Gig"
+msgstr ""
+
+#: classes/Module/Gigs.php:241
+msgid "ERROR: %s is not a valid feed template."
+msgstr ""
+
+#: classes/Module/Gigs.php:411
+msgid "Add a Venue"
+msgstr ""
+
+#: classes/Module/Gigs.php:413 classes/Module/Gigs.php:415
+msgid "Select Venue"
+msgstr ""
+
+#: classes/Module/Gigs.php:414
+msgid "Select"
+msgstr ""
+
+#: classes/Module/Gigs.php:417
+msgid "View"
+msgstr ""
+
+#: classes/Module/Videos.php:64
+msgid ""
+"Embed videos from services like YouTube and Vimeo to create your own video "
+"library."
+msgstr ""
+
+#: classes/Module/Videos.php:140
+msgid "Easily build your video galleries from over a dozen popular video services."
+msgstr ""
+
+#: classes/Module/Videos.php:160
+msgid "Add Video"
+msgstr ""
+
+#: classes/PostType/Archive.php:474
+msgid "Add New Archive"
+msgstr ""
+
+#: classes/PostType/Archive.php:475
+msgid "Edit Archive"
+msgstr ""
+
+#: classes/PostType/Archive.php:476
+msgid "New Archive"
+msgstr ""
+
+#: classes/PostType/Archive.php:477
+msgid "View Archive"
+msgstr ""
+
+#: classes/PostType/Archive.php:478
+msgid "Search Archives"
+msgstr ""
+
+#: classes/PostType/Archive.php:479
+msgid "No archives found"
+msgstr ""
+
+#: classes/PostType/Archive.php:480
+msgid "No archives found in Trash"
+msgstr ""
+
+#: classes/PostType/Archive.php:481
+msgid "Parent Archive:"
+msgstr ""
+
+#: classes/PostType/Archive.php:485 classes/PostType/Gig.php:413
+#: classes/PostType/Record.php:273 classes/PostType/Track.php:382
+#: classes/PostType/Venue.php:83 classes/PostType/Video.php:224
+msgid "Post Archives"
+msgstr ""
+
+#: classes/PostType/Archive.php:486
+msgid "Insert into archive"
+msgstr ""
+
+#: classes/PostType/Archive.php:487
+msgid "Uploaded to this archive"
+msgstr ""
+
+#: classes/PostType/Archive.php:488 classes/PostType/Gig.php:416
+#: classes/PostType/Record.php:276 classes/PostType/Track.php:385
+#: classes/PostType/Venue.php:86 classes/PostType/Video.php:227
+msgid "Featured Image"
+msgstr ""
+
+#: classes/PostType/Archive.php:489 classes/PostType/Gig.php:417
+#: classes/PostType/Record.php:277 classes/PostType/Track.php:386
+#: classes/PostType/Venue.php:87 classes/PostType/Video.php:228
+msgid "Set featured image"
+msgstr ""
+
+#: classes/PostType/Archive.php:490 classes/PostType/Gig.php:418
+#: classes/PostType/Record.php:278 classes/PostType/Track.php:387
+#: classes/PostType/Venue.php:88 classes/PostType/Video.php:229
+msgid "Remove featured image"
+msgstr ""
+
+#: classes/PostType/Archive.php:491 classes/PostType/Gig.php:419
+#: classes/PostType/Record.php:279 classes/PostType/Track.php:388
+#: classes/PostType/Venue.php:89 classes/PostType/Video.php:230
+msgid "Use as featured image"
+msgstr ""
+
+#: classes/PostType/Archive.php:492
+msgid "Filter archives list"
+msgstr ""
+
+#: classes/PostType/Archive.php:493
+msgid "Archives list navigation"
+msgstr ""
+
+#: classes/PostType/Archive.php:494
+msgid "Archives list"
+msgstr ""
+
+#: classes/PostType/Archive.php:509 classes/PostType/Archive.php:512
+msgid "Archive updated."
+msgstr ""
+
+#: classes/PostType/Archive.php:510 classes/PostType/Gig.php:438
+#: classes/PostType/Record.php:298 classes/PostType/Track.php:407
+#: classes/PostType/Venue.php:108 classes/PostType/Video.php:249
+msgid "Custom field updated."
+msgstr ""
+
+#: classes/PostType/Archive.php:511 classes/PostType/Gig.php:439
+#: classes/PostType/Record.php:299 classes/PostType/Track.php:408
+#: classes/PostType/Venue.php:109 classes/PostType/Video.php:250
+msgid "Custom field deleted."
+msgstr ""
+
+#: classes/PostType/Archive.php:514
+#. translators: %s: date and time of the revision
+msgid "Archive restored to revision from %s."
+msgstr ""
+
+#: classes/PostType/Archive.php:515
+msgid "Archive published."
+msgstr ""
+
+#: classes/PostType/Archive.php:516
+msgid "Archive saved."
+msgstr ""
+
+#: classes/PostType/Archive.php:517
+msgid "Archive submitted."
+msgstr ""
+
+#: classes/PostType/Archive.php:519
+msgid "Archive scheduled for: %s."
+msgstr ""
+
+#: classes/PostType/Archive.php:521 classes/PostType/Gig.php:449
+#: classes/PostType/Record.php:309 classes/PostType/Track.php:418
+#: classes/PostType/Venue.php:119 classes/PostType/Video.php:260
+#. translators: Publish box date format, see http:php.net/date
+msgid "M j, Y @ H:i"
+msgstr ""
+
+#: classes/PostType/Archive.php:523
+msgid "Archive draft updated."
+msgstr ""
+
+#: classes/PostType/Archive.php:524
+msgid "Preview archive"
+msgstr ""
+
+#: classes/PostType/Archive.php:525
+msgid "View archive"
+msgstr ""
+
+#: classes/PostType/Gig.php:402
+msgid "Add New Gig"
+msgstr ""
+
+#: classes/PostType/Gig.php:403
+msgid "Edit Gig"
+msgstr ""
+
+#: classes/PostType/Gig.php:404
+msgid "New Gig"
+msgstr ""
+
+#: classes/PostType/Gig.php:405
+msgid "View Gig"
+msgstr ""
+
+#: classes/PostType/Gig.php:406
+msgid "Search Gigs"
+msgstr ""
+
+#: classes/PostType/Gig.php:407
+msgid "No gigs found"
+msgstr ""
+
+#: classes/PostType/Gig.php:408
+msgid "No gigs found in Trash"
+msgstr ""
+
+#: classes/PostType/Gig.php:409
+msgid "Parent Gig:"
+msgstr ""
+
+#: classes/PostType/Gig.php:410
+msgid "All Gigs"
+msgstr ""
+
+#: classes/PostType/Gig.php:414
+msgid "Insert into gig"
+msgstr ""
+
+#: classes/PostType/Gig.php:415
+msgid "Uploaded to this gig"
+msgstr ""
+
+#: classes/PostType/Gig.php:420
+msgid "Filter gigs list"
+msgstr ""
+
+#: classes/PostType/Gig.php:421
+msgid "Gigs list navigation"
+msgstr ""
+
+#: classes/PostType/Gig.php:422
+msgid "Gigs list"
+msgstr ""
+
+#: classes/PostType/Gig.php:437 classes/PostType/Gig.php:440
+msgid "Gig updated."
+msgstr ""
+
+#: classes/PostType/Gig.php:442
+#. translators: %s: date and time of the revision
+msgid "Gig restored to revision from %s."
+msgstr ""
+
+#: classes/PostType/Gig.php:443
+msgid "Gig published."
+msgstr ""
+
+#: classes/PostType/Gig.php:444
+msgid "Gig saved."
+msgstr ""
+
+#: classes/PostType/Gig.php:445
+msgid "Gig submitted."
+msgstr ""
+
+#: classes/PostType/Gig.php:447
+msgid "Gig scheduled for: %s."
+msgstr ""
+
+#: classes/PostType/Gig.php:451
+msgid "Gig draft updated."
+msgstr ""
+
+#: classes/PostType/Gig.php:452
+msgid "Preview gig"
+msgstr ""
+
+#: classes/PostType/Gig.php:453
+msgid "View gig"
+msgstr ""
+
+#: classes/PostType/Playlist.php:80
+msgid "AudioTheme Tracks"
+msgstr ""
+
+#: classes/PostType/Playlist.php:81
+msgid "Add from AudioTheme"
+msgstr ""
+
+#: classes/PostType/Playlist.php:82
+msgid "Add Tracks"
+msgstr ""
+
+#: classes/PostType/Record.php:262
+msgid "Add New Record"
+msgstr ""
+
+#: classes/PostType/Record.php:263
+msgid "Edit Record"
+msgstr ""
+
+#: classes/PostType/Record.php:264
+msgid "New Record"
+msgstr ""
+
+#: classes/PostType/Record.php:265
+msgid "View Record"
+msgstr ""
+
+#: classes/PostType/Record.php:266
+msgid "Search Records"
+msgstr ""
+
+#: classes/PostType/Record.php:267
+msgid "No records found"
+msgstr ""
+
+#: classes/PostType/Record.php:268
+msgid "No records found in Trash"
+msgstr ""
+
+#: classes/PostType/Record.php:269
+msgid "Parent Record:"
+msgstr ""
+
+#: classes/PostType/Record.php:270
+msgid "All Records"
+msgstr ""
+
+#: classes/PostType/Record.php:274
+msgid "Insert into record"
+msgstr ""
+
+#: classes/PostType/Record.php:275
+msgid "Uploaded to this record"
+msgstr ""
+
+#: classes/PostType/Record.php:280
+msgid "Filter records list"
+msgstr ""
+
+#: classes/PostType/Record.php:281
+msgid "Records list navigation"
+msgstr ""
+
+#: classes/PostType/Record.php:282
+msgid "Records list"
+msgstr ""
+
+#: classes/PostType/Record.php:297 classes/PostType/Record.php:300
+msgid "Record updated."
+msgstr ""
+
+#: classes/PostType/Record.php:302
+#. translators: %s: date and time of the revision
+msgid "Record restored to revision from %s."
+msgstr ""
+
+#: classes/PostType/Record.php:303
+msgid "Record published."
+msgstr ""
+
+#: classes/PostType/Record.php:304
+msgid "Record saved."
+msgstr ""
+
+#: classes/PostType/Record.php:305
+msgid "Record submitted."
+msgstr ""
+
+#: classes/PostType/Record.php:307
+msgid "Record scheduled for: %s."
+msgstr ""
+
+#: classes/PostType/Record.php:311
+msgid "Record draft updated."
+msgstr ""
+
+#: classes/PostType/Record.php:312
+msgid "Preview record"
+msgstr ""
+
+#: classes/PostType/Record.php:313
+msgid "View record"
+msgstr ""
+
+#: classes/PostType/Track.php:371
+msgid "Add New Track"
+msgstr ""
+
+#: classes/PostType/Track.php:372
+msgid "Edit Track"
+msgstr ""
+
+#: classes/PostType/Track.php:373
+msgid "New Track"
+msgstr ""
+
+#: classes/PostType/Track.php:374
+msgid "View Track"
+msgstr ""
+
+#: classes/PostType/Track.php:375
+msgid "Search Tracks"
+msgstr ""
+
+#: classes/PostType/Track.php:376
+msgid "No tracks found"
+msgstr ""
+
+#: classes/PostType/Track.php:377
+msgid "No tracks found in Trash"
+msgstr ""
+
+#: classes/PostType/Track.php:378
+msgid "Parent Track:"
+msgstr ""
+
+#: classes/PostType/Track.php:379
+msgid "All Tracks"
+msgstr ""
+
+#: classes/PostType/Track.php:383
+msgid "Insert into track"
+msgstr ""
+
+#: classes/PostType/Track.php:384
+msgid "Uploaded to this track"
+msgstr ""
+
+#: classes/PostType/Track.php:389
+msgid "Filter tracks list"
+msgstr ""
+
+#: classes/PostType/Track.php:390
+msgid "Tracks list navigation"
+msgstr ""
+
+#: classes/PostType/Track.php:391
+msgid "Tracks list"
+msgstr ""
+
+#: classes/PostType/Track.php:406 classes/PostType/Track.php:409
+msgid "Track updated."
+msgstr ""
+
+#: classes/PostType/Track.php:411
+#. translators: %s: date and time of the revision
+msgid "Track restored to revision from %s."
+msgstr ""
+
+#: classes/PostType/Track.php:412
+msgid "Track published."
+msgstr ""
+
+#: classes/PostType/Track.php:413
+msgid "Track saved."
+msgstr ""
+
+#: classes/PostType/Track.php:414
+msgid "Track submitted."
+msgstr ""
+
+#: classes/PostType/Track.php:416
+msgid "Track scheduled for: %s."
+msgstr ""
+
+#: classes/PostType/Track.php:420
+msgid "Track draft updated."
+msgstr ""
+
+#: classes/PostType/Track.php:421
+msgid "Preview track"
+msgstr ""
+
+#: classes/PostType/Track.php:422
+msgid "View track"
+msgstr ""
+
+#: classes/PostType/Venue.php:72
+msgid "Add New Venue"
+msgstr ""
+
+#: classes/PostType/Venue.php:73
+msgid "Edit Venue"
+msgstr ""
+
+#: classes/PostType/Venue.php:74
+msgid "New Venue"
+msgstr ""
+
+#: classes/PostType/Venue.php:75
+msgid "View Venue"
+msgstr ""
+
+#: classes/PostType/Venue.php:77
+msgid "No venues found"
+msgstr ""
+
+#: classes/PostType/Venue.php:78
+msgid "No venues found in Trash"
+msgstr ""
+
+#: classes/PostType/Venue.php:79
+msgid "Parent Venue:"
+msgstr ""
+
+#: classes/PostType/Venue.php:80
+msgid "Venues"
+msgstr ""
+
+#: classes/PostType/Venue.php:84
+msgid "Insert into venue"
+msgstr ""
+
+#: classes/PostType/Venue.php:85
+msgid "Uploaded to this venue"
+msgstr ""
+
+#: classes/PostType/Venue.php:90
+msgid "Filter venues list"
+msgstr ""
+
+#: classes/PostType/Venue.php:91
+msgid "Venues list navigation"
+msgstr ""
+
+#: classes/PostType/Venue.php:92
+msgid "Venues list"
+msgstr ""
+
+#: classes/PostType/Venue.php:107 classes/PostType/Venue.php:110
+msgid "Venue updated."
+msgstr ""
+
+#: classes/PostType/Venue.php:112
+#. translators: %s: date and time of the revision
+msgid "Venue restored to revision from %s."
+msgstr ""
+
+#: classes/PostType/Venue.php:113
+msgid "Venue published."
+msgstr ""
+
+#: classes/PostType/Venue.php:114
+msgid "Venue saved."
+msgstr ""
+
+#: classes/PostType/Venue.php:115
+msgid "Venue submitted."
+msgstr ""
+
+#: classes/PostType/Venue.php:117
+msgid "Venue scheduled for: %s."
+msgstr ""
+
+#: classes/PostType/Venue.php:121
+msgid "Venue draft updated."
+msgstr ""
+
+#: classes/PostType/Venue.php:122
+msgid "Preview venue"
+msgstr ""
+
+#: classes/PostType/Venue.php:123
+msgid "View venue"
+msgstr ""
+
+#: classes/PostType/Video.php:213
+msgid "Add New Video"
+msgstr ""
+
+#: classes/PostType/Video.php:214
+msgid "Edit Video"
+msgstr ""
+
+#: classes/PostType/Video.php:215
+msgid "New Video"
+msgstr ""
+
+#: classes/PostType/Video.php:216
+msgid "View Video"
+msgstr ""
+
+#: classes/PostType/Video.php:217
+msgid "Search Videos"
+msgstr ""
+
+#: classes/PostType/Video.php:218
+msgid "No videos found"
+msgstr ""
+
+#: classes/PostType/Video.php:219
+msgid "No videos found in Trash"
+msgstr ""
+
+#: classes/PostType/Video.php:220
+msgid "Parent Video:"
+msgstr ""
+
+#: classes/PostType/Video.php:221
+msgid "All Videos"
+msgstr ""
+
+#: classes/PostType/Video.php:225
+msgid "Insert into video"
+msgstr ""
+
+#: classes/PostType/Video.php:226
+msgid "Uploaded to this video"
+msgstr ""
+
+#: classes/PostType/Video.php:231
+msgid "Filter videos list"
+msgstr ""
+
+#: classes/PostType/Video.php:232
+msgid "Videos list navigation"
+msgstr ""
+
+#: classes/PostType/Video.php:233
+msgid "Videos list"
+msgstr ""
+
+#: classes/PostType/Video.php:248 classes/PostType/Video.php:251
+msgid "Video updated."
+msgstr ""
+
+#: classes/PostType/Video.php:253
+#. translators: %s: date and time of the revision
+msgid "Video restored to revision from %s."
+msgstr ""
+
+#: classes/PostType/Video.php:254
+msgid "Video published."
+msgstr ""
+
+#: classes/PostType/Video.php:255
+msgid "Video saved."
+msgstr ""
+
+#: classes/PostType/Video.php:256
+msgid "Video submitted."
+msgstr ""
+
+#: classes/PostType/Video.php:258
+msgid "Video scheduled for: %s."
+msgstr ""
+
+#: classes/PostType/Video.php:262
+msgid "Video draft updated."
+msgstr ""
+
+#: classes/PostType/Video.php:263
+msgid "Preview video"
+msgstr ""
+
+#: classes/PostType/Video.php:264
+msgid "View video"
+msgstr ""
+
+#: classes/Provider/AdminAssets.php:47
+msgid "Activate"
+msgstr ""
+
+#: classes/Provider/AdminAssets.php:48
+msgid "Deactivate"
+msgstr ""
+
+#: classes/Provider/AdminAssets.php:53
+msgid "Audio files"
+msgstr ""
+
+#: classes/Provider/AdminAssets.php:54
+msgid "Choose an Attachment"
+msgstr ""
+
+#: classes/Provider/AdminAssets.php:55
+msgid "Update Attachment"
+msgstr ""
+
+#: classes/Provider/Assets.php:54
+msgid "Previous Month"
+msgstr ""
+
+#: classes/Provider/Assets.php:55
+msgid "Next Month"
+msgstr ""
+
+#: classes/Provider/Setting/GoogleMaps.php:79
+msgid "Google Maps"
+msgstr ""
+
+#: classes/Provider/Setting/GoogleMaps.php:93
+msgid "API Key"
+msgstr ""
+
+#: classes/Provider/Setting/GoogleMaps.php:109
+msgid ""
+"As of June 22, 2016, Google requires an API key to display maps on a "
+"website. If you don't have one, follow this guide to <a "
+"href=\"https://audiotheme.com/support/kb/create-google-maps-api-key/\" "
+"target=\"_blank\">create an API key</a>."
+msgstr ""
+
+#: classes/Provider/Setting/GoogleMaps.php:198
+msgid ""
+"An error was detected with your Google Maps API key. Check your <a "
+"href=\"https://developers.google.com/maps/documentation/javascript/error-"
+"messages#checking-errors\">browser's JavaScript console</a> for more "
+"information."
+msgstr ""
+
+#: classes/Provider/Setting/GoogleMaps.php:225
+msgid ""
+"An error was detected with your API key. Verify the key and ensure the "
+"Google Static Maps API is enabled in the <a "
+"href=\"https://console.developers.google.com/apis/dashboard\" "
+"target=\"_blank\">Google Developers Console</a>."
+msgstr ""
+
+#: classes/Screen/Dashboard.php:47 classes/Screen/Dashboard.php:48
+msgid "Features"
+msgstr ""
+
+#: classes/Screen/EditArchive.php:70 classes/Screen/EditArchive.php:221
+#: classes/Screen/EditArchive.php:237 classes/Screen/EditArchive.php:238
+msgid "Update"
+msgstr ""
+
+#: classes/Screen/EditArchive.php:80
+msgid "Archive Settings"
+msgstr ""
+
+#: classes/Screen/EditArchive.php:126
+msgid "Posts per page:"
+msgstr ""
+
+#: classes/Screen/EditArchive.php:142
+msgid "Columns:"
+msgstr ""
+
+#: classes/Screen/EditGig.php:56
+msgid "Tickets"
+msgstr ""
+
+#: classes/Screen/EditGig.php:120
+msgid "Price:"
+msgstr ""
+
+#: classes/Screen/EditGig.php:124
+msgid "Tickets URL:"
+msgstr ""
+
+#: classes/Screen/EditRecord.php:61
+msgid "Record Details"
+msgstr ""
+
+#: classes/Screen/EditRecord.php:150 classes/Screen/EditRecordArchive.php:68
+msgid "Release Year"
+msgstr ""
+
+#: classes/Screen/EditRecord.php:182 templates/single-record.php:48
+msgid "Genre"
+msgstr ""
+
+#: classes/Screen/EditRecord.php:217
+msgid "Disable tracklist links"
+msgstr ""
+
+#: classes/Screen/EditRecordArchive.php:70
+#: classes/Screen/EditVideoArchive.php:70
+msgid "Custom"
+msgstr ""
+
+#: classes/Screen/EditRecordArchive.php:76
+#: classes/Screen/EditVideoArchive.php:76
+msgid "Order by:"
+msgstr ""
+
+#: classes/Screen/EditTrack.php:54
+msgid "Track Details"
+msgstr ""
+
+#: classes/Screen/EditTrack.php:67
+msgid "Related Tracks"
+msgstr ""
+
+#: classes/Screen/EditVideo.php:83
+msgid "Video URL:"
+msgstr ""
+
+#: classes/Screen/EditVideo.php:84
+msgid "Video URL"
+msgstr ""
+
+#: classes/Screen/EditVideo.php:89
+msgid ""
+"Enter a video URL from a <a href=\"%s\" target=\"_blank\">supported video "
+"service</a>."
+msgstr ""
+
+#: classes/Screen/EditVideo.php:127
+msgid "Fetch video thumbnail"
+msgstr ""
+
+#: classes/Screen/EditVideoArchive.php:68
+msgid "Publish Date"
+msgstr ""
+
+#: classes/Screen/ManageGigs.php:183 classes/Screen/ManageGigs.php:414
+msgid "Duplicate"
+msgstr ""
+
+#: classes/Screen/ManageGigs.php:184
+msgid "Gig Date and Time"
+msgstr ""
+
+#: classes/Screen/ManageGigs.php:235
+msgid "Upcoming"
+msgstr ""
+
+#: classes/Screen/ManageGigs.php:243
+msgid "Past"
+msgstr ""
+
+#: classes/Screen/ManageGigs.php:282
+msgid "All dates"
+msgstr ""
+
+#: classes/Screen/ManageGigs.php:322
+msgid "All venues"
+msgstr ""
+
+#: classes/Screen/ManageGigs.php:412
+msgid "Duplicate this gig"
+msgstr ""
+
+#: classes/Screen/ManageGigs.php:462
+msgid "Date"
+msgstr ""
+
+#: classes/Screen/ManageGigs.php:492
+msgid "(no date)"
+msgstr ""
+
+#: classes/Screen/ManageGigs.php:497 templates/single-gig.php:56
+msgid "TBD"
+msgstr ""
+
+#: classes/Screen/ManageTracks.php:92
+msgid "View all records"
+msgstr ""
+
+#: classes/Screen/ManageTracks.php:188
+msgid "Purchase Link"
+msgstr ""
+
+#: classes/Screen/ManageVenues.php:97
+msgid "Gigs"
+msgstr ""
+
+#: classes/Screen/ManageVenues.php:215
+msgid "Visit venue website"
+msgstr ""
+
+#: classes/Screen/Network/Settings.php:38 classes/Screen/Settings.php:37
+#: classes/Screen/Settings.php:38
+msgid "Settings"
+msgstr ""
+
+#: classes/Taxonomy/RecordType.php:93
+msgid "Record Type added."
+msgstr ""
+
+#: classes/Taxonomy/RecordType.php:94
+msgid "Record Type deleted."
+msgstr ""
+
+#: classes/Taxonomy/RecordType.php:95
+msgid "Record Type updated."
+msgstr ""
+
+#: classes/Taxonomy/RecordType.php:96
+msgid "Record Type not added."
+msgstr ""
+
+#: classes/Taxonomy/RecordType.php:97
+msgid "Record Type not updated."
+msgstr ""
+
+#: classes/Taxonomy/RecordType.php:98
+msgid "Record Types deleted."
+msgstr ""
+
+#: classes/Taxonomy/RecordType.php:139
+msgid "Search Record Types"
+msgstr ""
+
+#: classes/Taxonomy/RecordType.php:140
+msgid "Popular Record Types"
+msgstr ""
+
+#: classes/Taxonomy/RecordType.php:141
+msgid "All Record Types"
+msgstr ""
+
+#: classes/Taxonomy/RecordType.php:142
+msgid "Parent Record Type"
+msgstr ""
+
+#: classes/Taxonomy/RecordType.php:143
+msgid "Parent Record Type:"
+msgstr ""
+
+#: classes/Taxonomy/RecordType.php:144
+msgid "Edit Record Type"
+msgstr ""
+
+#: classes/Taxonomy/RecordType.php:145
+msgid "View Record Type"
+msgstr ""
+
+#: classes/Taxonomy/RecordType.php:146
+msgid "Update Record Type"
+msgstr ""
+
+#: classes/Taxonomy/RecordType.php:147
+msgid "Add New Record Type"
+msgstr ""
+
+#: classes/Taxonomy/RecordType.php:148
+msgid "New Record Type Name"
+msgstr ""
+
+#: classes/Taxonomy/RecordType.php:149
+msgid "Separate record types with commas"
+msgstr ""
+
+#: classes/Taxonomy/RecordType.php:150
+msgid "Add or remove record types"
+msgstr ""
+
+#: classes/Taxonomy/RecordType.php:151
+msgid "Choose from most used record types"
+msgstr ""
+
+#: classes/Taxonomy/RecordType.php:153
+msgid "No record types found."
+msgstr ""
+
+#: classes/Taxonomy/RecordType.php:154
+msgid "No record types"
+msgstr ""
+
+#: classes/Taxonomy/RecordType.php:155
+msgid "Record Types list navigation"
+msgstr ""
+
+#: classes/Taxonomy/RecordType.php:156
+msgid "Record Types list"
+msgstr ""
+
+#: classes/Taxonomy/VideoCategory.php:93
+msgid "Category added."
+msgstr ""
+
+#: classes/Taxonomy/VideoCategory.php:94
+msgid "Category deleted."
+msgstr ""
+
+#: classes/Taxonomy/VideoCategory.php:95
+msgid "Category updated."
+msgstr ""
+
+#: classes/Taxonomy/VideoCategory.php:96
+msgid "Category not added."
+msgstr ""
+
+#: classes/Taxonomy/VideoCategory.php:97
+msgid "Category not updated."
+msgstr ""
+
+#: classes/Taxonomy/VideoCategory.php:98
+msgid "Categories deleted."
+msgstr ""
+
+#: classes/Taxonomy/VideoCategory.php:138
+msgid "Search Categories"
+msgstr ""
+
+#: classes/Taxonomy/VideoCategory.php:139
+msgid "Popular Categories"
+msgstr ""
+
+#: classes/Taxonomy/VideoCategory.php:140
+msgid "All Categories"
+msgstr ""
+
+#: classes/Taxonomy/VideoCategory.php:141
+msgid "Parent Category"
+msgstr ""
+
+#: classes/Taxonomy/VideoCategory.php:142
+msgid "Parent Category:"
+msgstr ""
+
+#: classes/Taxonomy/VideoCategory.php:143
+msgid "Edit Category"
+msgstr ""
+
+#: classes/Taxonomy/VideoCategory.php:144
+msgid "View Category"
+msgstr ""
+
+#: classes/Taxonomy/VideoCategory.php:145
+msgid "Update Category"
+msgstr ""
+
+#: classes/Taxonomy/VideoCategory.php:146
+msgid "Add New Category"
+msgstr ""
+
+#: classes/Taxonomy/VideoCategory.php:147
+msgid "New Category Name"
+msgstr ""
+
+#: classes/Taxonomy/VideoCategory.php:148
+msgid "Separate categories with commas"
+msgstr ""
+
+#: classes/Taxonomy/VideoCategory.php:149
+msgid "Add or remove categories"
+msgstr ""
+
+#: classes/Taxonomy/VideoCategory.php:150
+msgid "Choose from most used categories"
+msgstr ""
+
+#: classes/Taxonomy/VideoCategory.php:152
+msgid "No categories found."
+msgstr ""
+
+#: classes/Taxonomy/VideoCategory.php:153
+msgid "No categories"
+msgstr ""
+
+#: classes/Taxonomy/VideoCategory.php:154
+msgid "Categories list navigation"
+msgstr ""
+
+#: classes/Taxonomy/VideoCategory.php:155
+msgid "Categories list"
+msgstr ""
+
+#: classes/Widget/RecentPosts.php:32
+msgid "Display a list of recent posts"
+msgstr ""
+
+#: classes/Widget/RecentPosts.php:35 classes/Widget/RecentPosts.php:53
+msgid "Recent Posts"
+msgstr ""
+
+#: classes/Widget/RecentPosts.php:154 classes/Widget/Record.php:105
+#: classes/Widget/Track.php:107 classes/Widget/UpcomingGigs.php:124
+#: classes/Widget/Video.php:106
+msgid "Title:"
+msgstr ""
+
+#: classes/Widget/RecentPosts.php:159
+msgid "Show feed link in title?"
+msgstr ""
+
+#: classes/Widget/RecentPosts.php:164
+msgid "Post Type:"
+msgstr ""
+
+#: classes/Widget/RecentPosts.php:181
+msgid "Number of posts to show:"
+msgstr ""
+
+#: classes/Widget/RecentPosts.php:186
+msgid "Show date?"
+msgstr ""
+
+#: classes/Widget/RecentPosts.php:190
+msgid "Show excerpts?"
+msgstr ""
+
+#: classes/Widget/Record.php:31
+msgid "Display a record."
+msgstr ""
+
+#: classes/Widget/Record.php:34
+msgid "Record (AudioTheme)"
+msgstr ""
+
+#: classes/Widget/Record.php:125 classes/Widget/Track.php:133
+#: classes/Widget/Video.php:126
+msgid "Description:"
+msgstr ""
+
+#: classes/Widget/Record.php:129 classes/Widget/Track.php:137
+#: classes/Widget/Video.php:130
+msgid "More Link Text:"
+msgstr ""
+
+#: classes/Widget/Track.php:31
+msgid "Display a track."
+msgstr ""
+
+#: classes/Widget/Track.php:34
+msgid "Track (AudioTheme)"
+msgstr ""
+
+#: classes/Widget/Track.php:111
+msgid "Track:"
+msgstr ""
+
+#: classes/Widget/UpcomingGigs.php:31
+msgid "Display a list of upcoming gigs."
+msgstr ""
+
+#: classes/Widget/UpcomingGigs.php:34
+msgid "Upcoming Gigs (AudioTheme)"
+msgstr ""
+
+#: classes/Widget/UpcomingGigs.php:58
+msgid "Upcoming Gigs"
+msgstr ""
+
+#: classes/Widget/UpcomingGigs.php:128
+msgid "Number of gigs to show:"
+msgstr ""
+
+#: classes/Widget/Video.php:31
+msgid "Display a video."
+msgstr ""
+
+#: classes/Widget/Video.php:34
+msgid "Video (AudioTheme)"
+msgstr ""
+
+#: classes/Widget/Video.php:110
+msgid "Video:"
+msgstr ""
+
+#: functions.php:97
+msgid ""
+"You should <a href=\"%s\">delete the theme</a> and activate as a plugin "
+"instead."
+msgstr ""
+
+#: functions.php:102
+msgid "The AudioTheme framework appears to already exist as a plugin."
+msgstr ""
+
+#: functions.php:106
+msgid ""
+"The AudioTheme framework could not be moved to your plugins folder "
+"automatically. You should move it manually."
+msgstr ""
+
+#: functions.php:109
+msgid ""
+"<strong>The AudioTheme framework is not a theme.</strong> It should be "
+"installed as a plugin."
+msgstr ""
+
+#: functions.php:110
+msgid "Would you like to move it now?"
+msgstr ""
+
+#: includes/functions.php:28
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/functions.php:29
+msgid "Medium"
+msgstr ""
+
+#: includes/functions.php:30
+msgid "Large"
+msgstr ""
+
+#: includes/functions.php:31
+msgid "Full Size"
+msgstr ""
+
+#: includes/general-template.php:190
+msgid "&larr; Previous"
+msgstr ""
+
+#: includes/general-template.php:194
+msgid "Next &rarr;"
+msgstr ""
+
+#: includes/venue-template.php:699
+msgid "Get Directions"
+msgstr ""
+
+#: templates/archive-gig.php:76 templates/single-gig.php:69
+msgid "Buy Tickets"
+msgstr ""
+
+#: templates/single-gig.php:62
+msgid "Admission"
+msgstr ""
+
+#: templates/single-record.php:41
+msgid "Release"
+msgstr ""
+
+#: templates/single-record.php:58 templates/single-track.php:74
+msgid "Purchase"
+msgstr ""
+
+#: templates/single-record.php:77
+msgid "Track List"
+msgstr ""
+
+#: templates/single-record.php:88 templates/single-track.php:68
+msgid "Download"
+msgstr ""
+
+#: templates/single-video.php:37
+msgid "Tags"
+msgstr ""
+
+#: templates/widgets/recent-posts.php:18
+msgid "Feed"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A platform for music-oriented websites, allowing for easy management of "
+"gigs, discography, videos and more."
+msgstr ""
+
+#: classes/Module/Discography.php:250
+msgctxt "track permalink slug"
+msgid "track"
+msgstr ""
+
+#: classes/Module/Discography.php:267
+msgctxt "tracks archive permalink slug"
+msgid "tracks"
+msgstr ""
+
+#: classes/Module/Gigs.php:492
+msgctxt "past gigs permalink slug"
+msgid "past"
+msgstr ""
+
+#: classes/PostType/Archive.php:471
+msgctxt "post type general name"
+msgid "Archives"
+msgstr ""
+
+#: classes/PostType/Gig.php:399
+msgctxt "post type general name"
+msgid "Gigs"
+msgstr ""
+
+#: classes/PostType/Record.php:259
+msgctxt "post type general name"
+msgid "Records"
+msgstr ""
+
+#: classes/PostType/Track.php:368
+msgctxt "post type general name"
+msgid "Tracks"
+msgstr ""
+
+#: classes/PostType/Venue.php:69
+msgctxt "post type general name"
+msgid "Venues"
+msgstr ""
+
+#: classes/PostType/Video.php:210
+msgctxt "post type general name"
+msgid "Videos"
+msgstr ""
+
+#: classes/PostType/Archive.php:472
+msgctxt "post type singular name"
+msgid "Archive"
+msgstr ""
+
+#: classes/PostType/Gig.php:400
+msgctxt "post type singular name"
+msgid "Gig"
+msgstr ""
+
+#: classes/PostType/Record.php:260
+msgctxt "post type singular name"
+msgid "Record"
+msgstr ""
+
+#: classes/PostType/Track.php:369
+msgctxt "post type singular name"
+msgid "Track"
+msgstr ""
+
+#: classes/PostType/Venue.php:70
+msgctxt "post type singular name"
+msgid "Venue"
+msgstr ""
+
+#: classes/PostType/Video.php:211
+msgctxt "post type singular name"
+msgid "Video"
+msgstr ""
+
+#: classes/PostType/Archive.php:473
+msgctxt "archive"
+msgid "Add New"
+msgstr ""
+
+#: classes/PostType/Archive.php:483
+msgctxt "admin menu name"
+msgid "Archives"
+msgstr ""
+
+#: classes/PostType/Gig.php:411
+msgctxt "admin menu name"
+msgid "Gigs"
+msgstr ""
+
+#: classes/PostType/Record.php:271
+msgctxt "admin menu name"
+msgid "Discography"
+msgstr ""
+
+#: classes/PostType/Track.php:380
+msgctxt "admin menu name"
+msgid "Tracks"
+msgstr ""
+
+#: classes/PostType/Venue.php:81
+msgctxt "admin menu name"
+msgid "Venues"
+msgstr ""
+
+#: classes/PostType/Video.php:222
+msgctxt "admin menu name"
+msgid "Videos"
+msgstr ""
+
+#: classes/Taxonomy/RecordType.php:152
+msgctxt "admin menu name"
+msgid "Record Types"
+msgstr ""
+
+#: classes/Taxonomy/VideoCategory.php:151
+msgctxt "admin menu name"
+msgid "Categories"
+msgstr ""
+
+#: classes/PostType/Archive.php:484
+msgctxt "add new on admin bar"
+msgid "Archive"
+msgstr ""
+
+#: classes/PostType/Gig.php:412
+msgctxt "add new on admin bar"
+msgid "Gig"
+msgstr ""
+
+#: classes/PostType/Record.php:272
+msgctxt "add new on admin bar"
+msgid "Record"
+msgstr ""
+
+#: classes/PostType/Track.php:381
+msgctxt "add new on admin bar"
+msgid "Track"
+msgstr ""
+
+#: classes/PostType/Venue.php:82
+msgctxt "add new on admin bar"
+msgid "Venue"
+msgstr ""
+
+#: classes/PostType/Video.php:223
+msgctxt "add new on admin bar"
+msgid "Video"
+msgstr ""
+
+#: classes/PostType/Gig.php:401
+msgctxt "gig"
+msgid "Add New"
+msgstr ""
+
+#: classes/PostType/Record.php:261
+msgctxt "record"
+msgid "Add New"
+msgstr ""
+
+#: classes/PostType/Track.php:370
+msgctxt "track"
+msgid "Add New"
+msgstr ""
+
+#: classes/PostType/Venue.php:71
+msgctxt "venue"
+msgid "Add New"
+msgstr ""
+
+#: classes/PostType/Video.php:212
+msgctxt "video"
+msgid "Add New"
+msgstr ""
+
+#: classes/Screen/EditVenue.php:54
+msgctxt "venue meta box title"
+msgid "Additional Notes"
+msgstr ""
+
+#: classes/Screen/ManageGigs.php:350
+msgctxt "column name"
+msgid "Date"
+msgstr ""
+
+#: classes/Screen/ManageRecords.php:79 classes/Screen/ManageVideos.php:38
+msgctxt "column name"
+msgid "Image"
+msgstr ""
+
+#: classes/Screen/ManageRecords.php:85
+msgctxt "column name"
+msgid "Tracks"
+msgstr ""
+
+#: classes/Screen/ManageTracks.php:121
+msgctxt "column name"
+msgid "Artist"
+msgstr ""
+
+#: classes/Screen/ManageTracks.php:122
+msgctxt "column name"
+msgid "Record"
+msgstr ""
+
+#: classes/Screen/ManageTracks.php:123
+msgctxt "column name"
+msgid "Audio File"
+msgstr ""
+
+#: classes/Screen/ManageTracks.php:124
+msgctxt "column name"
+msgid "Downloadable"
+msgstr ""
+
+#: classes/Screen/ManageTracks.php:125
+msgctxt "column name"
+msgid "Purchase URL"
+msgstr ""
+
+#: classes/Screen/ManageVenues.php:92
+msgctxt "column name"
+msgid "Name"
+msgstr ""
+
+#: classes/Screen/ManageRecords.php:76
+msgctxt "column_name"
+msgid "Record"
+msgstr ""
+
+#: classes/Screen/ManageRecords.php:82
+msgctxt "column_name"
+msgid "Released"
+msgstr ""
+
+#: classes/Screen/ManageTracks.php:118
+msgctxt "column_name"
+msgid "Track"
+msgstr ""
+
+#: classes/Taxonomy/RecordType.php:137
+msgctxt "taxonomy general name"
+msgid "Record Types"
+msgstr ""
+
+#: classes/Taxonomy/VideoCategory.php:136
+msgctxt "taxonomy general name"
+msgid "Categories"
+msgstr ""
+
+#: classes/Taxonomy/RecordType.php:138
+msgctxt "taxonomy singular name"
+msgid "Record Type"
+msgstr ""
+
+#: classes/Taxonomy/VideoCategory.php:137
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr ""
+
+#: classes/Taxonomy/RecordType.php:168
+msgctxt "record type permalink slug"
+msgid "type"
+msgstr ""
+
+#: classes/Taxonomy/VideoCategory.php:167
+msgctxt "video category permalink slug"
+msgid "category"
+msgstr ""
+
+#: includes/deprecated.php:19 includes/deprecated.php:71
+msgctxt "Record type"
+msgid "Album"
+msgstr ""
+
+#: includes/deprecated.php:20
+msgctxt "Record type"
+msgid "Single"
+msgstr ""

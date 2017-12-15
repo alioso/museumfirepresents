@@ -1,0 +1,641 @@
+# Copyright (C) 2017 AudioTheme
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Marquee 1.2.2\n"
+"Report-Msgid-Bugs-To: https://audiotheme.com/support/\n"
+"POT-Creation-Date: 2017-06-20 18:50:07+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: 404.php:18
+msgid "404 Error"
+msgstr ""
+
+#: 404.php:23
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: audiotheme/archive-record.php:33 audiotheme/archive-video.php:33
+msgid "Next"
+msgstr ""
+
+#: audiotheme/archive-record.php:34 audiotheme/archive-video.php:34
+msgid "Previous"
+msgstr ""
+
+#: audiotheme/gig/card.php:11 audiotheme/gig/content-archive.php:12
+msgid "Date"
+msgstr ""
+
+#: audiotheme/gig/card.php:36
+msgid "Note"
+msgstr ""
+
+#: audiotheme/gig/card.php:43
+msgid "More"
+msgstr ""
+
+#: audiotheme/gig/card.php:49
+msgid "Gig venue details are missing or incomplete."
+msgstr ""
+
+#: audiotheme/gig/content-archive.php:14
+msgid "Location"
+msgstr ""
+
+#: audiotheme/gig/content-none.php:30
+msgid "There currently aren't any upcoming shows. Check back soon!"
+msgstr ""
+
+#: audiotheme/gig/content.php:32
+msgid "View All Gigs"
+msgstr ""
+
+#: audiotheme/gig/meta.php:19
+msgid "Time"
+msgstr ""
+
+#: audiotheme/gig/meta.php:27
+msgid "TBD"
+msgstr ""
+
+#: audiotheme/gig/meta.php:34
+msgid "Admission"
+msgstr ""
+
+#: audiotheme/gig/meta.php:46
+msgid "Buy Tickets"
+msgstr ""
+
+#: audiotheme/gig/venue/meta.php:14
+msgid "Venue Details"
+msgstr ""
+
+#: audiotheme/gig/venue/meta.php:19
+msgid "Address"
+msgstr ""
+
+#: audiotheme/record/content-none.php:12 audiotheme/video/content-none.php:12
+#: templates/parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: audiotheme/record/content-none.php:27
+msgid "There currently aren't any records available."
+msgstr ""
+
+#: audiotheme/record/content.php:21
+msgid "View All Music"
+msgstr ""
+
+#: audiotheme/record/meta-links.php:13 audiotheme/track/meta-links.php:20
+msgid "Purchase"
+msgstr ""
+
+#: audiotheme/record/meta.php:16 audiotheme/track/meta.php:16
+msgid "Record Details"
+msgstr ""
+
+#: audiotheme/record/meta.php:20 audiotheme/track/meta.php:20
+msgid "Release"
+msgstr ""
+
+#: audiotheme/record/meta.php:25 audiotheme/track/meta.php:25
+msgid "Genre"
+msgstr ""
+
+#: audiotheme/record/tracklist.php:13
+msgid "Tracklist"
+msgstr ""
+
+#: audiotheme/track/content.php:21
+msgid "View Record"
+msgstr ""
+
+#: audiotheme/track/meta-links.php:16
+msgid "Links"
+msgstr ""
+
+#: audiotheme/track/meta-links.php:24
+msgid "Download"
+msgstr ""
+
+#: audiotheme/track/tracklist.php:13
+msgid "Record Tracklist"
+msgstr ""
+
+#: audiotheme/video/content-none.php:27
+msgid "There currently aren't any videos available."
+msgstr ""
+
+#: audiotheme/video/content.php:19
+msgid "View All Videos"
+msgstr ""
+
+#: comments.php:42
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:102
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:103
+msgid "Secondary Menu"
+msgstr ""
+
+#: functions.php:104
+msgid "Social Links Menu"
+msgstr ""
+
+#: functions.php:105
+msgid "Blog Menu"
+msgstr ""
+
+#: functions.php:137
+msgid "Home"
+msgstr ""
+
+#: functions.php:138
+msgid "Widgets that appear on the homepage."
+msgstr ""
+
+#: functions.php:209
+msgid "Disable Repeat"
+msgstr ""
+
+#: functions.php:210
+msgid "Disable Shuffle"
+msgstr ""
+
+#: functions.php:211
+msgid "Mute"
+msgstr ""
+
+#: functions.php:212
+msgid "Pause"
+msgstr ""
+
+#: functions.php:213 templates/parts/player.php:18
+msgid "Play"
+msgstr ""
+
+#: functions.php:214 templates/parts/player.php:20
+msgid "Repeat"
+msgstr ""
+
+#: functions.php:215 templates/parts/player.php:21
+msgid "Shuffle"
+msgstr ""
+
+#: functions.php:216
+msgid "Toggle Playlist"
+msgstr ""
+
+#: functions.php:217
+msgid "Unmute"
+msgstr ""
+
+#: header.php:24
+msgid "Skip to content"
+msgstr ""
+
+#: includes/customizer.php:24
+msgid "Theme Options"
+msgstr ""
+
+#: includes/customizer.php:36
+msgid "Background Color"
+msgstr ""
+
+#: includes/customizer.php:49
+msgid "Background Overlay Opacity"
+msgstr ""
+
+#: includes/customizer.php:50
+msgid "Applies background color over the image."
+msgstr ""
+
+#: includes/plugins/audiotheme.php:21
+msgid "Gigs Menu"
+msgstr ""
+
+#: includes/plugins/audiotheme.php:22
+msgid "Records Menu"
+msgstr ""
+
+#: includes/plugins/audiotheme.php:23
+msgid "Videos Menu"
+msgstr ""
+
+#: includes/plugins/cue.php:18
+msgid "Site-wide Player"
+msgstr ""
+
+#: includes/template-tags.php:48
+msgid "Comment navigation"
+msgstr ""
+
+#: includes/template-tags.php:51
+msgid "Older Comments"
+msgstr ""
+
+#: includes/template-tags.php:55
+msgid "Newer Comments"
+msgstr ""
+
+#: includes/template-tags.php:79 includes/template-tags.php:108
+msgid "Older"
+msgstr ""
+
+#: includes/template-tags.php:80 includes/template-tags.php:109
+msgid "Newer"
+msgstr ""
+
+#: includes/template-tags.php:110
+msgid "Posts navigation"
+msgstr ""
+
+#: includes/template-tags.php:198
+msgid "Pages"
+msgstr ""
+
+#: includes/template-tags.php:202
+msgid "Page"
+msgstr ""
+
+#: includes/template-tags.php:319
+#. translators: %s: Author name
+msgid "<span class=\"sep\">By</span> %s"
+msgstr ""
+
+#: includes/template-tags.php:343
+#. translators: %s: Publish date
+msgid "<span class=\"sep\">on</span> %s"
+msgstr ""
+
+#: includes/template-tags.php:363
+msgid "Leave a comment"
+msgstr ""
+
+#: includes/template-tags.php:364
+msgid "1 Comment"
+msgstr ""
+
+#: includes/template-tags.php:365
+msgid "% Comments"
+msgstr ""
+
+#: includes/template-tags.php:399
+msgid "Posted In:"
+msgstr ""
+
+#: includes/template-tags.php:400
+msgid "Tagged:"
+msgstr ""
+
+#: includes/template-tags.php:592
+msgid "<a href=\"%s\">Marquee music theme</a> by AudioTheme."
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-archive-feature-content.php:50
+msgid "Full Text"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-archive-feature-content.php:51
+msgid "Summary"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-archive-feature-content.php:52
+msgid "Custom Excerpts"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-archive-feature-content.php:53
+msgid "No Content"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-archive-feature-content.php:191
+msgid "Archive Content"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-archive-feature-images.php:36
+msgid "Post header"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-archive-feature-images.php:41
+msgid "Thumbnails"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-archive-feature-images.php:146
+msgid "Archive Images"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-customize-control-playlist.php:69
+msgid "Edit Playlist"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-customize-control-postcollection.php:55
+msgid "Add Post"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-customize-control-postcollection.php:56
+msgid "Add Posts"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-customize-control-postcollection.php:57
+msgid "Clear Results"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-customize-control-postcollection.php:58
+msgid "Featured Image"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-customize-control-postcollection.php:59
+msgid "Remove"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-customize-control-postcollection.php:60
+msgid "Remove Post"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-customize-control-postcollection.php:61
+msgid "Set Featured Image"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-customize-control-postcollection.php:62
+msgid "Toggle Post"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-customize-control-postcollection.php:63
+msgid "Search Posts"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-customize-control-postcollection.php:64
+msgid "Search posts&hellip;"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-customize-section-fonts.php:41
+msgid "Press return or enter to open"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-customize-section-fonts.php:47
+#: includes/vendor/cedaro-theme/class-cedaro-theme-postcollections.php:269
+msgid "Back"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-customize-section-fonts.php:56
+msgid "Help"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-customize-section-fonts.php:59
+msgid "Font Options"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-customize-section-fonts.php:63
+msgid ""
+"Easily customize your fonts. Try to re-use fonts where possible to keep "
+"your website snappy."
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-customize-section-fonts.php:67
+msgid "Typekit Integration"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-customize-section-fonts.php:72
+msgid ""
+"Enter a Kit ID to make custom fonts from Typekit available in each "
+"dropdown. %s"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-customize-section-fonts.php:73
+msgid "Learn more."
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-featuredcontent.php:313
+msgid "Call to Action"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-featuredcontent.php:377
+#: includes/vendor/cedaro-theme/class-cedaro-theme-featuredcontent.php:387
+msgid "Featured Content"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-featuredcontent.php:378
+msgid "Your theme supports up to %d posts in its featured content area."
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-featuredcontent.php:413
+msgid "Add to featured content?"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-fonts.php:387
+msgid "Fonts"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-fonts.php:460
+msgid "Reset"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-fonts.php:461
+msgid "Default Theme Font"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-postcollections.php:275
+#. translators: &#9656; is the unicode right-pointing triangle, and %s is the
+#. control label in the Customizer
+msgid "Customizing &#9656; %s"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-postcollections.php:338
+msgid "No results found."
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-sitelogo-wporg.php:169
+msgid "Display Site Title and Tagline"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-sitelogo-wporg.php:198
+msgid "Site Logo"
+msgstr ""
+
+#: includes/vendor/class-audiotheme-themenotice.php:38
+msgid ""
+"The AudioTheme plugin should be installed and activated for this theme to "
+"display properly."
+msgstr ""
+
+#: includes/vendor/class-audiotheme-themenotice.php:39
+msgid "Activate now"
+msgstr ""
+
+#: includes/vendor/class-audiotheme-themenotice.php:40
+msgid "Find out more"
+msgstr ""
+
+#: includes/vendor/class-audiotheme-themenotice.php:41
+msgid "Dismiss"
+msgstr ""
+
+#: includes/wporg.php:80
+msgid "Site Title"
+msgstr ""
+
+#: includes/wporg.php:88
+msgid "Site Navigation"
+msgstr ""
+
+#: includes/wporg.php:96
+msgid "Headings"
+msgstr ""
+
+#: includes/wporg.php:104
+msgid "Content"
+msgstr ""
+
+#: includes/wporg.php:112
+msgid "Meta"
+msgstr ""
+
+#: includes/wporg.php:187
+msgid "Enable fast page loading?"
+msgstr ""
+
+#: search.php:19
+msgid "Search Results"
+msgstr ""
+
+#: templates/parts/content-none.php:22
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: templates/parts/content-none.php:29
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#: templates/parts/content-none.php:34
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: templates/parts/content.php:18
+msgid "Edit"
+msgstr ""
+
+#: templates/parts/content.php:24
+msgid "View All Posts"
+msgstr ""
+
+#: templates/parts/player.php:11
+msgid "Toggle Player"
+msgstr ""
+
+#: templates/parts/player.php:17
+msgid "Previous Track"
+msgstr ""
+
+#: templates/parts/player.php:19
+msgid "Next Track"
+msgstr ""
+
+#: templates/parts/site-header.php:18
+msgid "Menu"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Marquee offers a simple, but uniquely delightful experience with its split "
+"screen layout, super fast page loading, and truly seamless audio playback."
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Landing Page"
+msgstr ""
+
+#: audiotheme/gig/content-none.php:23
+msgctxt "add post type link"
+msgid "Ready to publish your next gig? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: audiotheme/record/content-none.php:20
+msgctxt "add post type link"
+msgid "Ready to publish your first record? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: audiotheme/video/content-none.php:20
+msgctxt "add post type link"
+msgid "Ready to publish your first video? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: includes/plugins/audiotheme.php:178
+msgctxt "default track length"
+msgid "-:--"
+msgstr ""
+
+#: includes/plugins/jetpack.php:53
+msgctxt "load posts button text"
+msgid "Load More"
+msgstr ""
+
+#: includes/template-tags.php:74
+msgctxt "Previous post link"
+msgid "Prev <span class=\"screen-reader-text\">Post: %title</span>"
+msgstr ""
+
+#: includes/template-tags.php:75
+msgctxt "Next post link"
+msgid "Next <span class=\"screen-reader-text\">Post: %title</span>"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-fonts.php:667
+#. translators: To add a character subset specific to your language, translate
+#. this to 'latin-ext', 'cyrillic', 'greek', or 'vietnamese'. Do not translate
+#. into your own language.
+msgctxt "Add new subset (latin-ext)"
+msgid "no-subset"
+msgstr ""
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme.php:226
+msgctxt "suffix for paged archive titles"
+msgid "Page %s"
+msgstr ""
+
+#: searchform.php:12
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:12
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:15
+msgctxt "submit button"
+msgid "Search"
+msgstr ""

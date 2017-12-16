@@ -2,18 +2,49 @@
 
 body {
 
-  .page-title {
-    font-family: "Roboto", sans-serif;
+  .home-widgets::before {
+    display: none;
   }
 
-  .site-title {
+  .audiotheme_gig {
+    display: flex;
+    flex-direction: column;
 
+    .venue-meta {
+      order: 3;
+      margin-top: 3rem;
+    }
+  }
+
+  a {
+    transition: color .3s ease-in-out;
+
+    &:link,
+    &:visited {
+      color: #2d8ac7;
+    }
+
+    &:hover {
+      color: #000;
+      opacity: 1 !important;
+    }
+  }
+
+  .page-title,
+  .entry-title {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
   }
 
   &.page-home {
 
     .site-title {
       @include element-invisible;
+    }
+
+    .entry-title {
+      background: url('../images/logo.png') no-repeat left -5px;
+      padding-top: 30px;
     }
   }
 
@@ -48,12 +79,32 @@ body {
     font-weight: 700;
   }
 
-  .widget_audiotheme_upcoming_gigs dd.date {
-    width: 10em !important;
-  }
+  .widget_audiotheme_upcoming_gigs {
 
-  .widget_audiotheme_upcoming_gigs dl {
-    padding-left: 12em !important;
+    .dtstart {
+      background: #333;
+      padding: 10px;
+      color: white;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+
+    dt {
+      font-size: 24px;
+      position: relative;
+      top: -.8rem;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      line-height: 1.2;
+    }
+
+    dd.date {
+      width: 10em !important;
+    }
+
+    dl {
+      padding-left: 12em !important;
+    }
   }
 
   .gig-card {
@@ -137,6 +188,7 @@ body {
     .site-navigation-toggle.is-open {
       height: 30px;
       top: 40px;
+      right: 5px;
 
       &::before {
         top: -10px
@@ -146,6 +198,18 @@ body {
 
   .site-title {
     text-align: right;
+
+    a {
+      color: white;
+    }
+  }
+
+  .gig-title {
+    font-size: 16px;
+  }
+
+  .site-header {
+    background-image: url('../images/ash.gif') !important;
   }
 
   @media screen and (min-width: 768px) {
@@ -157,6 +221,13 @@ body {
 
     .site-navigation li {
       font-size: 2.5rem;
+    }
+
+    .home-widgets {
+
+      .widget {
+        width: 100% !important;
+      }
     }
   }
 
@@ -172,10 +243,31 @@ body {
 
     .home-widgets .widget {
       padding: 65px;
+
+      .locality {
+        color: #555 !important;
+      }
+
+      .sep-region,
+      .region,
+      .sep-country-name,
+      .country-name {
+        color: #555 !important;
+        //display: none !important;
+      }
+
+      .venue {
+        position: relative;
+        top: -8px;
+        font-size: 20px;
+      }
+
     }
 
-    .site-header {
-      background-image: url('../images/ash.gif') !important;
+    .secondary-navigation,
+    .site-navigation-panel-body {
+      opacity: 1;
+      transition: opacity 1s ease-in-out;
     }
 
     .site-navigation-toggle {
@@ -186,9 +278,56 @@ body {
       }
     }
   }
+}
 
-  .site-navigation-toggle:not(.is-open) {
-    left: auto !important;
-    right: 1rem;
+.site-navigation-panel-body {
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+}
+
+.site-navigation-panel {
+  background: rgba(0, 0, 0, .8) !important;
+
+  li a {
+    @include link(white, none, #2d8ac7, none);
+
+    &:hover {
+      color: #2d8ac7 !important;
+    }
+  }
+}
+
+.site-navigation-toggle:not(.is-open) {
+  left: auto !important;
+  right: 1rem;
+}
+
+.site-navigation {
+  padding: 0 !important;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  display: none;
+}
+
+.site-branding {
+  opacity: 1;
+}
+
+.site-navigation-is-open {
+
+  .site-navigation {
+    opacity: 1;
+    display: block;
+  }
+
+  .site-branding {
+    opacity: 0;
+  }
+
+  .h-t,
+  .secondary-navigation {
+    display: none;
+    opacity: 0;
   }
 }

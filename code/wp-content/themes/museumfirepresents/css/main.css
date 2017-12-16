@@ -1,5 +1,42 @@
-body .page-title {
+body .home-widgets::before {
+  display: none;
+}
+
+body .audiotheme_gig {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -js-display: flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .audiotheme_gig .venue-meta {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+  margin-top: 3rem;
+}
+
+body a {
+  transition: color .3s ease-in-out;
+}
+
+body a:link, body a:visited {
+  color: #2d8ac7;
+}
+
+body a:hover {
+  color: #000;
+  opacity: 1 !important;
+}
+
+body .page-title,
+body .entry-title {
   font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
 }
 
 body.page-home .site-title {
@@ -8,6 +45,11 @@ body.page-home .site-title {
   width: 0;
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px);
+}
+
+body.page-home .entry-title {
+  background: url("../images/logo.png") no-repeat left -5px;
+  padding-top: 30px;
 }
 
 body .mmt_container .reveal-modal {
@@ -36,6 +78,23 @@ body .gig-list-header span {
 
 body .gig-date.date {
   font-weight: 700;
+}
+
+body .widget_audiotheme_upcoming_gigs .dtstart {
+  background: #333;
+  padding: 10px;
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+body .widget_audiotheme_upcoming_gigs dt {
+  font-size: 24px;
+  position: relative;
+  top: -.8rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  line-height: 1.2;
 }
 
 body .widget_audiotheme_upcoming_gigs dd.date {
@@ -138,6 +197,7 @@ body .h-m-wrapper .h-t:hover, body .h-m-wrapper .h-t:focus {
 body .h-m-wrapper .site-navigation-toggle.is-open {
   height: 30px;
   top: 40px;
+  right: 5px;
 }
 
 body .h-m-wrapper .site-navigation-toggle.is-open::before {
@@ -148,9 +208,85 @@ body .site-title {
   text-align: right;
 }
 
-body .site-navigation-toggle:not(.is-open) {
+body .site-title a {
+  color: white;
+}
+
+body .gig-title {
+  font-size: 16px;
+}
+
+body .site-header {
+  background-image: url("../images/ash.gif") !important;
+}
+
+.site-navigation-panel-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -js-display: flex;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 1;
+}
+
+.site-navigation-panel {
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+
+.site-navigation-panel li a {
+  color: white;
+  text-decoration: none;
+}
+
+.site-navigation-panel li a:visited {
+  color: white;
+}
+
+.site-navigation-panel li a:visited:hover, .site-navigation-panel li a:visited:focus {
+  color: #2d8ac7;
+  text-decoration: none;
+}
+
+.site-navigation-panel li a:hover, .site-navigation-panel li a:focus {
+  color: #2d8ac7;
+  text-decoration: none;
+}
+
+.site-navigation-panel li a:hover {
+  color: #2d8ac7 !important;
+}
+
+.site-navigation-toggle:not(.is-open) {
   left: auto !important;
   right: 1rem;
+}
+
+.site-navigation {
+  padding: 0 !important;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  display: none;
+}
+
+.site-branding {
+  opacity: 1;
+}
+
+.site-navigation-is-open .site-navigation {
+  opacity: 1;
+  display: block;
+}
+
+.site-navigation-is-open .site-branding {
+  opacity: 0;
+}
+
+.site-navigation-is-open .h-t,
+.site-navigation-is-open .secondary-navigation {
+  display: none;
+  opacity: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -162,6 +298,10 @@ body .site-navigation-toggle:not(.is-open) {
 
   body .site-navigation li {
     font-size: 2.5rem;
+  }
+
+  body .home-widgets .widget {
+    width: 100% !important;
   }
 }
 
@@ -180,8 +320,27 @@ body .site-navigation-toggle:not(.is-open) {
     padding: 65px;
   }
 
-  body .site-header {
-    background-image: url("../images/ash.gif") !important;
+  body .home-widgets .widget .locality {
+    color: #555 !important;
+  }
+
+  body .home-widgets .widget .sep-region,
+  body .home-widgets .widget .region,
+  body .home-widgets .widget .sep-country-name,
+  body .home-widgets .widget .country-name {
+    color: #555 !important;
+  }
+
+  body .home-widgets .widget .venue {
+    position: relative;
+    top: -8px;
+    font-size: 20px;
+  }
+
+  body .secondary-navigation,
+  body .site-navigation-panel-body {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
   }
 
   body .site-navigation-toggle {

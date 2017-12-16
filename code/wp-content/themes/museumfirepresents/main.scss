@@ -1,9 +1,17 @@
 @import "mixins";
 
+$blue: #2d8ac7;
+
 body {
 
   .home-widgets::before {
     display: none;
+  }
+
+  #closeMap {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
   }
 
   .audiotheme_gig {
@@ -11,8 +19,54 @@ body {
     flex-direction: column;
 
     .venue-meta {
+      //display: none;
       order: 3;
-      margin-top: 3rem;
+      padding: 2rem;
+      position: fixed;
+      z-index: 5;
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 65%;
+      height: 100%;
+      right: 0;
+      top: 0;
+
+      .venue-map,
+      .venue-address {
+        width: 90%;
+      }
+    }
+
+    .gig-location::after {
+      content: "- Venue: ";
+    }
+
+    .mapLink {
+      @include link(white, none, white, none);
+
+      padding: 10px 10px;
+      background: #333;
+      font-size: 14px;
+      margin: 0 0 0 10px;
+      text-transform: uppercase;
+      position: relative;
+      top: -2px;
+
+      &:hover {
+        background: $blue;
+      }
+
+      &::before {
+        display: none;
+      }
+    }
+
+    .gig-venue-name {
+
+
     }
   }
 
@@ -21,7 +75,7 @@ body {
 
     &:link,
     &:visited {
-      color: #2d8ac7;
+      color: $blue;
     }
 
     &:hover {
@@ -290,10 +344,10 @@ body {
   background: rgba(0, 0, 0, .8) !important;
 
   li a {
-    @include link(white, none, #2d8ac7, none);
+    @include link(white, none, $blue, none);
 
     &:hover {
-      color: #2d8ac7 !important;
+      color: $blue !important;
     }
   }
 }

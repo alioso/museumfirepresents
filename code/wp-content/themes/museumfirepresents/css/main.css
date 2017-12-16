@@ -2,6 +2,12 @@ body .home-widgets::before {
   display: none;
 }
 
+body #closeMap {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+}
+
 body .audiotheme_gig {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -17,7 +23,71 @@ body .audiotheme_gig .venue-meta {
   -webkit-box-ordinal-group: 4;
       -ms-flex-order: 3;
           order: 3;
-  margin-top: 3rem;
+  padding: 2rem;
+  position: fixed;
+  z-index: 5;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -js-display: flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 65%;
+  height: 100%;
+  right: 0;
+  top: 0;
+}
+
+body .audiotheme_gig .venue-meta .venue-map,
+body .audiotheme_gig .venue-meta .venue-address {
+  width: 90%;
+}
+
+body .audiotheme_gig .gig-location::after {
+  content: "- Venue: ";
+}
+
+body .audiotheme_gig .mapLink {
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px;
+  background: #333;
+  font-size: 14px;
+  margin: 0 0 0 10px;
+  text-transform: uppercase;
+  position: relative;
+  top: -2px;
+}
+
+body .audiotheme_gig .mapLink:visited {
+  color: white;
+}
+
+body .audiotheme_gig .mapLink:visited:hover, body .audiotheme_gig .mapLink:visited:focus {
+  color: white;
+  text-decoration: none;
+}
+
+body .audiotheme_gig .mapLink:hover, body .audiotheme_gig .mapLink:focus {
+  color: white;
+  text-decoration: none;
+}
+
+body .audiotheme_gig .mapLink:hover {
+  background: #2d8ac7;
+}
+
+body .audiotheme_gig .mapLink::before {
+  display: none;
 }
 
 body a {

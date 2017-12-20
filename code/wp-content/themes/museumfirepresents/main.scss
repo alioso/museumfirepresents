@@ -4,6 +4,10 @@ $blue: #2d8ac7;
 
 body {
 
+  #page {
+    border-left: 1px solid #ddd;
+  }
+
   .home-widgets::before {
     display: none;
   }
@@ -129,8 +133,22 @@ body {
     }
   }
 
+  .gig-card {
+    border: 0;
+  }
+
   .gig-date.date {
     font-weight: 700;
+  }
+
+  .gig-list.vcalendar {
+    border-left: 6px solid #eee;
+    border-bottom: 0;
+  }
+
+  .gig-list .gig-card dt.gig-venue,
+  .gig-list .gig-card dd.gig-description {
+    padding-left: 0;
   }
 
   .widget_audiotheme_upcoming_gigs {
@@ -162,11 +180,40 @@ body {
   }
 
   .gig-card {
-    transition: padding .3s ease-in-out;
+    transition: background-color .2s ease-in-out,
+                color .2s ease-in-out;
     padding: 10px !important;
 
+    a {
+      transition: background-color .2s ease-in-out,
+      color .2s ease-in-out;
+    }
+
     &:hover {
-      padding: 20px 10px !important;
+      background-color: $blue;
+      color: #fff;
+    }
+
+    .gig-permalink {
+      padding-bottom: 4rem;
+
+      a {
+        @include link($blue, none, white, underline);
+
+        transition: all .5s ease-in-out;
+
+        &:hover {
+          letter-spacing: 5px;
+        }
+      }
+
+      .screen-reader-text {
+        clip: initial;
+        height: auto;
+        width: auto;
+        bottom: 0;
+        padding: 1rem;
+      }
     }
   }
 
@@ -264,6 +311,16 @@ body {
 
   .site-header {
     background-image: url('../images/ash.gif') !important;
+    filter: invert(100%);
+
+    &__mask {
+      background: rgba(0, 0, 0, .8);
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+    }
   }
 
   @media screen and (min-width: 768px) {
@@ -341,7 +398,8 @@ body {
 }
 
 .site-navigation-panel {
-  background: rgba(0, 0, 0, .8) !important;
+  background: rgba(0, 0, 0, .5) !important;
+  width: 100% !important;
 
   li a {
     @include link(white, none, $blue, none);

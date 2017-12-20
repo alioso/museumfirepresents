@@ -1,3 +1,7 @@
+body #page {
+  border-left: 1px solid #ddd;
+}
+
 body .home-widgets::before {
   display: none;
 }
@@ -146,8 +150,22 @@ body .gig-list-header span {
   padding: 10px;
 }
 
+body .gig-card {
+  border: 0;
+}
+
 body .gig-date.date {
   font-weight: 700;
+}
+
+body .gig-list.vcalendar {
+  border-left: 6px solid #eee;
+  border-bottom: 0;
+}
+
+body .gig-list .gig-card dt.gig-venue,
+body .gig-list .gig-card dd.gig-description {
+  padding-left: 0;
 }
 
 body .widget_audiotheme_upcoming_gigs .dtstart {
@@ -176,12 +194,53 @@ body .widget_audiotheme_upcoming_gigs dl {
 }
 
 body .gig-card {
-  transition: padding .3s ease-in-out;
+  transition: background-color .2s ease-in-out, color .2s ease-in-out;
   padding: 10px !important;
 }
 
+body .gig-card a {
+  transition: background-color .2s ease-in-out, color .2s ease-in-out;
+}
+
 body .gig-card:hover {
-  padding: 20px 10px !important;
+  background-color: #2d8ac7;
+  color: #fff;
+}
+
+body .gig-card .gig-permalink {
+  padding-bottom: 4rem;
+}
+
+body .gig-card .gig-permalink a {
+  color: #2d8ac7;
+  text-decoration: none;
+  transition: all .5s ease-in-out;
+}
+
+body .gig-card .gig-permalink a:visited {
+  color: #2d8ac7;
+}
+
+body .gig-card .gig-permalink a:visited:hover, body .gig-card .gig-permalink a:visited:focus {
+  color: white;
+  text-decoration: underline;
+}
+
+body .gig-card .gig-permalink a:hover, body .gig-card .gig-permalink a:focus {
+  color: white;
+  text-decoration: underline;
+}
+
+body .gig-card .gig-permalink a:hover {
+  letter-spacing: 5px;
+}
+
+body .gig-card .gig-permalink .screen-reader-text {
+  clip: initial;
+  height: auto;
+  width: auto;
+  bottom: 0;
+  padding: 1rem;
 }
 
 body .audiotheme_video h1,
@@ -288,6 +347,17 @@ body .gig-title {
 
 body .site-header {
   background-image: url("../images/ash.gif") !important;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+body .site-header__mask {
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
 }
 
 .site-navigation-panel-body {
@@ -302,7 +372,8 @@ body .site-header {
 }
 
 .site-navigation-panel {
-  background: rgba(0, 0, 0, 0.8) !important;
+  background: rgba(0, 0, 0, 0.5) !important;
+  width: 100% !important;
 }
 
 .site-navigation-panel li a {

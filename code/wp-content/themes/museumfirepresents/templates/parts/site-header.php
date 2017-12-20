@@ -8,6 +8,7 @@
 ?>
 
 <header id="masthead" class="site-header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="site-header__mask"></div>
 
 	<?php do_action( 'marquee_header_top' ); ?>
 
@@ -16,7 +17,7 @@
 	<?php do_action( 'marquee_branding_after' ); ?>
 
     <div class="h-m-wrapper">
-        <a href="#" class="h-t">HOME</a>
+        <a href="/" class="h-t">HOME</a>
         <button id="site-navigation-toggle" class="site-navigation-toggle"><?php esc_html_e( 'Menu', 'marquee' ); ?></button>
     </div>
 	<div id="site-navigation-panel" class="site-navigation-panel">

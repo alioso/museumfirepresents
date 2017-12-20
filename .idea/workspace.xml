@@ -28,22 +28,27 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1513741476038" expanded="true" signature="74:94" ph="{...}" />
+                <marker date="1513741476038" expanded="true" signature="2844:2867" ph="{...}" />
+                <marker date="1513741476038" expanded="true" signature="3104:3208" ph="{...}" />
+                <marker date="1513741476038" expanded="true" signature="3555:3559" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/wp-content/themes/museumfirepresents/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            <state relative-caret-position="441">
+              <caret line="202" column="26" lean-forward="false" selection-start-line="202" selection-start-column="26" selection-end-line="202" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/wp-content/themes/museumfirepresents/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
@@ -78,8 +83,8 @@
       <file leaf-file-name="site-header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/wp-content/themes/museumfirepresents/templates/parts/site-header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="36" />
+            <state relative-caret-position="80">
+              <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -116,6 +121,12 @@
       <find>vevent</find>
       <find>dt</find>
       <find>widget</find>
+      <find>.8</find>
+      <find>gig</find>
+      <find>header</find>
+      <find>content</find>
+      <find>#page</find>
+      <find>site-navigation-panel-body</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/code/wp-content/themes/marquee</dir>
@@ -141,15 +152,15 @@
         <option value="$PROJECT_DIR$/code/wp-content/themes/museumfirepresents/templates/audiotheme/upcoming-gigs.php" />
         <option value="$PROJECT_DIR$/code/wp-content/themes/museumfirepresents/templates/widgets/upcoming-gigs.php" />
         <option value="$PROJECT_DIR$/code/wp-content/themes/museumfirepresents/templates/parts/upcoming-gigs.php" />
-        <option value="$PROJECT_DIR$/code/wp-content/themes/museumfirepresents/templates/parts/site-header.php" />
         <option value="$PROJECT_DIR$/code/wp-content/plugins/audiotheme/templates/widgets/upcoming-gigs.php" />
         <option value="$PROJECT_DIR$/code/wp-content/themes/museumfirepresents/templates/upcoming-gigs.php" />
         <option value="$PROJECT_DIR$/code/wp-content/themes/museumfirepresents/functions.php" />
         <option value="$PROJECT_DIR$/code/wp-content/themes/museumfirepresents/upcoming-gigs.php" />
         <option value="$PROJECT_DIR$/code/wp-content/themes/museumfirepresents/audiotheme/widgets/upcoming-gigs.php" />
         <option value="$PROJECT_DIR$/code/wp-content/themes/museumfirepresents/audiotheme/single-gig.php" />
-        <option value="$PROJECT_DIR$/code/wp-content/themes/museumfirepresents/main.scss" />
         <option value="$PROJECT_DIR$/code/wp-content/themes/museumfirepresents/js/custom.js" />
+        <option value="$PROJECT_DIR$/code/wp-content/themes/museumfirepresents/templates/parts/site-header.php" />
+        <option value="$PROJECT_DIR$/code/wp-content/themes/museumfirepresents/main.scss" />
       </list>
     </option>
   </component>
@@ -462,27 +473,28 @@
       <workItem from="1513296804085" duration="8228000" />
       <workItem from="1513450421126" duration="8329000" />
       <workItem from="1513607882494" duration="14000" />
+      <workItem from="1513729111606" duration="4966000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23663000" />
+    <option name="totallyTimeSpent" value="28629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26494345" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26898223" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -509,7 +521,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1513741476038" expanded="true" signature="74:94" ph="{...}" />
+            <marker date="1513741476038" expanded="true" signature="2844:2867" ph="{...}" />
+            <marker date="1513741476038" expanded="true" signature="3104:3208" ph="{...}" />
+            <marker date="1513741476038" expanded="true" signature="3555:3559" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -575,7 +592,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1513741476038" expanded="true" signature="74:94" ph="{...}" />
+            <marker date="1513741476038" expanded="true" signature="2844:2867" ph="{...}" />
+            <marker date="1513741476038" expanded="true" signature="3104:3208" ph="{...}" />
+            <marker date="1513741476038" expanded="true" signature="3555:3559" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -622,7 +644,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1513741476038" expanded="true" signature="74:94" ph="{...}" />
+            <marker date="1513741476038" expanded="true" signature="2844:2867" ph="{...}" />
+            <marker date="1513741476038" expanded="true" signature="3104:3208" ph="{...}" />
+            <marker date="1513741476038" expanded="true" signature="3555:3559" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -724,14 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/wp-content/themes/museumfirepresents/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/wp-content/themes/marquee/templates/parts/site-footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -817,14 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/wp-content/themes/museumfirepresents/templates/parts/site-header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/wp-content/themes/marquee/audiotheme/widgets/home-widgets_video.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -859,18 +870,39 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code/wp-content/themes/museumfirepresents/audiotheme/single-gig.php" />
-    <entry file="file://$PROJECT_DIR$/code/wp-content/themes/museumfirepresents/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/wp-content/themes/museumfirepresents/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/wp-content/themes/museumfirepresents/templates/parts/site-header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/wp-content/themes/museumfirepresents/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1513741476038" expanded="true" signature="74:94" ph="{...}" />
+            <marker date="1513741476038" expanded="true" signature="2844:2867" ph="{...}" />
+            <marker date="1513741476038" expanded="true" signature="3104:3208" ph="{...}" />
+            <marker date="1513741476038" expanded="true" signature="3555:3559" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/wp-content/themes/museumfirepresents/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="202" column="26" lean-forward="false" selection-start-line="202" selection-start-column="26" selection-end-line="202" selection-end-column="26" />
           <folding />
         </state>
       </provider>

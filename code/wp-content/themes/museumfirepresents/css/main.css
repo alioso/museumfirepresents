@@ -1,5 +1,28 @@
+body .h-t {
+  font-family: "Roboto", sans-serif;
+  padding: 0 1rem 0 0;
+  font-size: 1.1rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  line-height: 48px;
+  position: absolute;
+  top: .25rem;
+  left: 2rem;
+  z-index: 1000;
+  text-decoration: none !important;
+  color: #666 !important;
+}
+
+body .h-t:hover, body .h-t:focus {
+  color: #fff !important;
+}
+
 body #page {
   border-left: 1px solid #ddd;
+}
+
+body .site-footer {
+  background: transparent;
 }
 
 body .home-widgets::before {
@@ -95,7 +118,7 @@ body .audiotheme_gig .mapLink::before {
 }
 
 body a {
-  transition: color .3s ease-in-out;
+  transition: color .2s ease-in-out;
 }
 
 body a:link, body a:visited {
@@ -190,7 +213,7 @@ body .widget_audiotheme_upcoming_gigs dd.date {
 }
 
 body .widget_audiotheme_upcoming_gigs dl {
-  padding-left: 12em !important;
+  padding: 6rem 0 0 0;
 }
 
 body .gig-card {
@@ -295,34 +318,6 @@ body .widget_audiotheme_upcoming_gigs .description {
   display: block;
 }
 
-body .h-m-wrapper .h-t {
-  color: white;
-  text-decoration: none;
-  font-family: "Roboto", sans-serif;
-  padding: 0 1rem 0 0;
-  font-size: 1.1rem;
-  font-weight: 400;
-  letter-spacing: 0.1em;
-  line-height: 48px;
-  position: absolute;
-  top: .25rem;
-  left: 1.5rem;
-}
-
-body .h-m-wrapper .h-t:visited {
-  color: white;
-}
-
-body .h-m-wrapper .h-t:visited:hover, body .h-m-wrapper .h-t:visited:focus {
-  color: #bbb;
-  text-decoration: none;
-}
-
-body .h-m-wrapper .h-t:hover, body .h-m-wrapper .h-t:focus {
-  color: #bbb;
-  text-decoration: none;
-}
-
 body .h-m-wrapper .site-navigation-toggle.is-open {
   height: 30px;
   top: 40px;
@@ -415,22 +410,35 @@ body .site-header__mask {
   opacity: 1;
 }
 
+.site-navigation-is-open .site {
+  left: 0 !important;
+}
+
+.site-navigation-is-open .site-navigation-panel-body {
+  border-bottom: 1px solid #111;
+}
+
 .site-navigation-is-open .site-navigation {
   opacity: 1;
   display: block;
 }
 
 .site-navigation-is-open .site-branding {
-  opacity: 0;
+  opacity: .5;
+  position: relative;
+  top: -5rem;
 }
 
-.site-navigation-is-open .h-t,
 .site-navigation-is-open .secondary-navigation {
   display: none;
   opacity: 0;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 783px) {
+
+  body .h-t {
+    left: 4.5rem;
+  }
 
   body .site-title {
     font-size: 30px;
@@ -441,8 +449,17 @@ body .site-header__mask {
     font-size: 2.5rem;
   }
 
+  body .widget_audiotheme_upcoming_gigs dl {
+    padding-left: 12em;
+    padding-top: 0;
+  }
+
   body .home-widgets .widget {
     width: 100% !important;
+  }
+
+  body.site-navigation-is-open .site-navigation-panel-body {
+    border-bottom: 0;
   }
 }
 

@@ -4,8 +4,33 @@ $blue: #2d8ac7;
 
 body {
 
+  .h-t {
+
+    font-family: "Roboto", sans-serif;
+    padding: 0 1rem 0 0;
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    line-height: 48px;
+    position: absolute;
+    top: .25rem;
+    left: 2rem;
+    z-index: 1000;
+    text-decoration: none !important;
+    color: #666 !important;
+
+    &:hover,
+    &:focus {
+      color: #fff !important;
+    }
+  }
+
   #page {
     border-left: 1px solid #ddd;
+  }
+
+  .site-footer {
+    background: transparent;
   }
 
   .home-widgets::before {
@@ -75,7 +100,7 @@ body {
   }
 
   a {
-    transition: color .3s ease-in-out;
+    transition: color .2s ease-in-out;
 
     &:link,
     &:visited {
@@ -175,7 +200,7 @@ body {
     }
 
     dl {
-      padding-left: 12em !important;
+      padding: 6rem 0 0 0;
     }
   }
 
@@ -272,20 +297,6 @@ body {
 
   .h-m-wrapper {
 
-    .h-t {
-      @include link(white, none, #bbb, none);
-
-      font-family: "Roboto", sans-serif;
-      padding: 0 1rem 0 0;
-      font-size: 1.1rem;
-      font-weight: 400;
-      letter-spacing: 0.1em;
-      line-height: 48px;
-      position: absolute;
-      top: .25rem;
-      left: 1.5rem;
-    }
-
     .site-navigation-toggle.is-open {
       height: 30px;
       top: 40px;
@@ -323,7 +334,11 @@ body {
     }
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 783px) {
+
+    .h-t {
+      left: 4.5rem;
+    }
 
     .site-title {
       font-size: 30px;
@@ -334,11 +349,20 @@ body {
       font-size: 2.5rem;
     }
 
+    .widget_audiotheme_upcoming_gigs dl {
+      padding-left: 12em;
+      padding-top: 0;
+    }
+
     .home-widgets {
 
       .widget {
         width: 100% !important;
       }
+    }
+
+    &.site-navigation-is-open .site-navigation-panel-body {
+        border-bottom: 0;
     }
   }
 
@@ -428,16 +452,26 @@ body {
 
 .site-navigation-is-open {
 
+  .site {
+    left: 0 !important;
+  }
+
+  .site-navigation-panel-body {
+    border-bottom: 1px solid #111;
+  }
+
   .site-navigation {
     opacity: 1;
     display: block;
+
   }
 
   .site-branding {
-    opacity: 0;
+    opacity: .5;
+    position: relative;
+    top: -5rem;
   }
 
-  .h-t,
   .secondary-navigation {
     display: none;
     opacity: 0;

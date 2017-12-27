@@ -8,6 +8,7 @@
 ?>
 
 <header id="masthead" class="site-header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+    <a href="/" class="h-t">HOME</a>
     <div class="site-header__mask"></div>
 
 	<?php do_action( 'marquee_header_top' ); ?>
@@ -17,10 +18,10 @@
 	<?php do_action( 'marquee_branding_after' ); ?>
 
     <div class="h-m-wrapper">
-        <a href="/" class="h-t">HOME</a>
-        <button id="site-navigation-toggle" class="site-navigation-toggle"><?php esc_html_e( 'Menu', 'marquee' ); ?></button>
+
+<!--        <button id="site-navigation-toggle" class="site-navigation-toggle">--><?php //esc_html_e( 'Menu', 'marquee' ); ?><!--</button>-->
     </div>
-	<div id="site-navigation-panel" class="site-navigation-panel">
+	<div id="site-navigation-panel" class="site-navigation-panel is-open">
 		<div class="site-navigation-panel-body">
 			<nav id="site-navigation" class="site-navigation" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
 				<?php

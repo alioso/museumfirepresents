@@ -1,3 +1,11 @@
+body.site-navigation-is-open .site-navigation {
+  top: 0;
+}
+
+body .site-navigation-panel {
+  position: relative;
+}
+
 body .h-t {
   font-family: "Roboto", sans-serif;
   padding: 0 1rem 0 0;
@@ -410,6 +418,12 @@ body .site-header__mask {
   opacity: 1;
 }
 
+.site-branding .site-title {
+  position: relative;
+  top: -102px;
+  right: -20px;
+}
+
 .site-navigation-is-open .site {
   left: 0 !important;
 }
@@ -421,17 +435,25 @@ body .site-header__mask {
 .site-navigation-is-open .site-navigation {
   opacity: 1;
   display: block;
+  position: relative;
+  top: 50px;
 }
 
 .site-navigation-is-open .site-branding {
   opacity: .5;
   position: relative;
-  top: -5rem;
 }
 
 .site-navigation-is-open .secondary-navigation {
   display: none;
   opacity: 0;
+}
+
+@media screen and (min-width: 560px) {
+
+  body .site-navigation-panel-body {
+    padding-left: 80px;
+  }
 }
 
 @media screen and (min-width: 783px) {
@@ -443,6 +465,13 @@ body .site-header__mask {
   body .site-title {
     font-size: 30px;
     font-size: 3rem;
+  }
+
+  body .site-navigation-panel-body {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    text-align: right;
   }
 
   body .site-navigation li {
@@ -457,10 +486,6 @@ body .site-header__mask {
   body .home-widgets .widget {
     width: 100% !important;
   }
-
-  body.site-navigation-is-open .site-navigation-panel-body {
-    border-bottom: 0;
-  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -469,9 +494,33 @@ body .site-header__mask {
     width: 65%;
   }
 
+  body .site-navigation-panel {
+    top: 46px;
+  }
+
+  body .site-navigation-panel-body {
+    border-bottom: 0;
+    padding-left: 45px;
+  }
+
   body .site-header,
   body .site-navigation-panel {
-    width: 35%;
+    width: 35% !important;
+    position: fixed;
+  }
+
+  body .site-navigation {
+    top: 0 !important;
+  }
+
+  body .site-branding {
+    position: relative;
+    top: -10rem;
+  }
+
+  body .site-branding .site-title {
+    top: 0;
+    right: 0;
   }
 
   body .home-widgets .widget {

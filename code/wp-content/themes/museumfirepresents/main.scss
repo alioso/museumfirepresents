@@ -4,6 +4,14 @@ $blue: #2d8ac7;
 
 body {
 
+  &.site-navigation-is-open .site-navigation {
+    top: 0;
+  }
+
+  .site-navigation-panel {
+    position: relative;
+  }
+
   .h-t {
 
     font-family: "Roboto", sans-serif;
@@ -334,6 +342,12 @@ body {
     }
   }
 
+  @media screen and (min-width: 560px) {
+    .site-navigation-panel-body {
+      padding-left: 80px;
+    }
+  }
+
   @media screen and (min-width: 783px) {
 
     .h-t {
@@ -343,6 +357,11 @@ body {
     .site-title {
       font-size: 30px;
       font-size: 3rem;
+    }
+
+    .site-navigation-panel-body {
+      align-items: flex-end;
+      text-align: right;
     }
 
     .site-navigation li {
@@ -360,10 +379,6 @@ body {
         width: 100% !important;
       }
     }
-
-    &.site-navigation-is-open .site-navigation-panel-body {
-        border-bottom: 0;
-    }
   }
 
   @media screen and (min-width: 1024px) {
@@ -371,9 +386,33 @@ body {
       width: 65%;
     }
 
+    .site-navigation-panel {
+      top: 46px;
+    }
+
+    .site-navigation-panel-body {
+      border-bottom: 0;
+      padding-left: 45px;
+    }
+
     .site-header,
     .site-navigation-panel {
-      width: 35%;
+      width: 35% !important;
+      position: fixed;
+    }
+
+    .site-navigation {
+      top: 0 !important;
+    }
+
+    .site-branding {
+      position: relative;
+      top: -10rem;
+
+      .site-title {
+        top: 0;
+        right: 0;
+      }
     }
 
     .home-widgets .widget {
@@ -396,7 +435,6 @@ body {
         top: -8px;
         font-size: 20px;
       }
-
     }
 
     .secondary-navigation,
@@ -447,7 +485,14 @@ body {
 }
 
 .site-branding {
+
   opacity: 1;
+
+  .site-title {
+    position: relative;
+    top: -102px;
+    right: -20px;
+  }
 }
 
 .site-navigation-is-open {
@@ -463,13 +508,13 @@ body {
   .site-navigation {
     opacity: 1;
     display: block;
-
+    position: relative;
+    top: 50px;
   }
 
   .site-branding {
     opacity: .5;
     position: relative;
-    top: -5rem;
   }
 
   .secondary-navigation {

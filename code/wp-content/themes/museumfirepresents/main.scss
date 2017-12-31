@@ -4,12 +4,23 @@ $blue: #2d8ac7;
 
 body {
 
-  &.site-navigation-is-open .site-navigation {
-    top: 0;
+  &.site-navigation-is-open {
+    .site-branding {
+      opacity: .3;
+    }
+
+    .site-navigation {
+      top: 0;
+    }
   }
 
   .site-navigation-panel {
     position: relative;
+    background: transparent !important;
+
+    &-body {
+      border: 0 !important;
+    }
   }
 
   .h-t {
@@ -381,9 +392,17 @@ body {
     }
   }
 
+  .site-navigation-panel-body {
+    padding: 25px;
+  }
+
   @media screen and (min-width: 1024px) {
     .site, .site-player-panel {
       width: 65%;
+    }
+
+    .site-navigation-panel-body {
+      padding: 45px;
     }
 
     .site-navigation-panel {
@@ -395,8 +414,7 @@ body {
       padding-left: 45px;
     }
 
-    .site-header,
-    .site-navigation-panel {
+    .site-header {
       width: 35% !important;
       position: fixed;
     }
@@ -406,8 +424,10 @@ body {
     }
 
     .site-branding {
-      position: relative;
-      top: -10rem;
+      position: absolute !important;
+      top: 35%;
+      left: 0 !important;
+      width: 100% !important;
 
       .site-title {
         top: 0;

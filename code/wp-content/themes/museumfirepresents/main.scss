@@ -77,8 +77,8 @@ body {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      width: 65%;
-      height: 100%;
+      width: 100%;
+      height: 100vh;
       right: 0;
       top: 0;
 
@@ -86,10 +86,6 @@ body {
       .venue-address {
         width: 90%;
       }
-    }
-
-    .gig-location::after {
-      content: "- Venue: ";
     }
 
     .mapLink {
@@ -167,7 +163,7 @@ body {
   }
 
   h2.gig-list-header {
-    margin-bottom: 0;
+    display: none;
   }
 
   .gig-list-header {
@@ -227,6 +223,11 @@ body {
     transition: background-color .2s ease-in-out,
                 color .2s ease-in-out;
     padding: 10px !important;
+    border-bottom: 1px solid #eee;
+
+    &:last-child {
+      border-bottom: 0;
+    }
 
     a {
       transition: background-color .2s ease-in-out,
@@ -256,7 +257,9 @@ body {
         height: auto;
         width: auto;
         bottom: 0;
-        padding: 1rem;
+        padding: 0 1rem;
+        border-left: 4px solid;
+        margin: .5em 0 1em .7em;
       }
     }
   }
@@ -336,7 +339,7 @@ body {
   }
 
   .gig-title {
-    font-size: 16px;
+    font-size: 22px !important;
   }
 
   .site-header {
@@ -477,6 +480,11 @@ body {
   display: flex;
   justify-content: center;
   opacity: 1;
+
+  li.active a {
+    color: $blue !important;
+    font-weight: 400;
+  }
 }
 
 .site-navigation-panel {
@@ -541,4 +549,26 @@ body {
     display: none;
     opacity: 0;
   }
+}
+
+#events {
+
+  .page-title::before {
+    content: "Upcoming";
+    font-size: 28px;
+    margin-right: .5em;
+  }
+}
+
+#eventspast {
+
+  .page-title::before {
+    content: "Previous";
+    font-size: 28px;
+    margin-right: .5em;
+  }
+}
+
+.widget_audiotheme_upcoming_gigs dl {
+  margin-bottom: 2em !important;
 }

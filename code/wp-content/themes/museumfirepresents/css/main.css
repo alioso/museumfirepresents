@@ -85,8 +85,8 @@ body .audiotheme_gig .venue-meta {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 65%;
-  height: 100%;
+  width: 100%;
+  height: 100vh;
   right: 0;
   top: 0;
 }
@@ -94,10 +94,6 @@ body .audiotheme_gig .venue-meta {
 body .audiotheme_gig .venue-meta .venue-map,
 body .audiotheme_gig .venue-meta .venue-address {
   width: 90%;
-}
-
-body .audiotheme_gig .gig-location::after {
-  content: "- Venue: ";
 }
 
 body .audiotheme_gig .mapLink {
@@ -183,7 +179,7 @@ body .mmt_container .reveal-modal .close-reveal-modal {
 }
 
 body h2.gig-list-header {
-  margin-bottom: 0;
+  display: none;
 }
 
 body .gig-list-header span {
@@ -236,6 +232,11 @@ body .widget_audiotheme_upcoming_gigs dl {
 body .gig-card {
   transition: background-color .2s ease-in-out, color .2s ease-in-out;
   padding: 10px !important;
+  border-bottom: 1px solid #eee;
+}
+
+body .gig-card:last-child {
+  border-bottom: 0;
 }
 
 body .gig-card a {
@@ -280,7 +281,9 @@ body .gig-card .gig-permalink .screen-reader-text {
   height: auto;
   width: auto;
   bottom: 0;
-  padding: 1rem;
+  padding: 0 1rem;
+  border-left: 4px solid;
+  margin: .5em 0 1em .7em;
 }
 
 body .audiotheme_video h1,
@@ -354,7 +357,7 @@ body .site-title a {
 }
 
 body .gig-title {
-  font-size: 16px;
+  font-size: 22px !important;
 }
 
 body .site-header {
@@ -385,6 +388,11 @@ body .site-navigation-panel-body {
       -ms-flex-pack: center;
           justify-content: center;
   opacity: 1;
+}
+
+.site-navigation-panel-body li.active a {
+  color: #2d8ac7 !important;
+  font-weight: 400;
 }
 
 .site-navigation-panel {
@@ -460,6 +468,22 @@ body .site-navigation-panel-body {
 .site-navigation-is-open .secondary-navigation {
   display: none;
   opacity: 0;
+}
+
+#events .page-title::before {
+  content: "Upcoming";
+  font-size: 28px;
+  margin-right: .5em;
+}
+
+#eventspast .page-title::before {
+  content: "Previous";
+  font-size: 28px;
+  margin-right: .5em;
+}
+
+.widget_audiotheme_upcoming_gigs dl {
+  margin-bottom: 2em !important;
 }
 
 @media screen and (min-width: 560px) {
